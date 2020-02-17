@@ -10,8 +10,8 @@ use Think\Controller;
  */
 class IweipayController extends Controller{
 
-    const UID = "695480";//"此处填写PaysApi的uid";
-    const KEY = "824FE354E8B06948D38BC974DC721A01";//"此处填写PaysApi的Token";
+    const UID = "386887";//"此处填写PaysApi的uid";
+    const KEY = "7C5BB0670AC0A93E363CEC5B74A8A7EA";//"此处填写PaysApi的Token";
     const HOST_URL = "http://pay.r3o.cn/submit.php?";
 
     public function pay(){

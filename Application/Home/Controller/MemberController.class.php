@@ -339,11 +339,10 @@ class MemberController extends HomeBaseController{
 			    );
 			    $data1['sign'] =$this->pay_sign($data1);
                 //跳转到微信支付
-               // $this->redirect('Api/Iweipay/pay',array('order_no'=>$order_no,'payment_type'=>$payment_type));
-             //  var_dump($_SERVER['HTTP_HOST']);
-               $urls = 'http://'.$_SERVER['HTTP_HOST'].'/fastpay/demo/pay.php?order_no='.$order_no.'&payment_type='.$payment_type.'&money='.$data['price'];
-               //var_dump($urls);die;
-               header("Location:".$urls);
+               $this->redirect('Api/Iweipay/pay',array('order_no'=>$order_no,'payment_type'=>$payment_type));
+            // var_dump($_SERVER['HTTP_HOST']);
+            //   $urls = 'http://'.$_SERVER['HTTP_HOST'].'/fastpay/demo/pay.php?order_no='.$order_no.'&payment_type='.$payment_type.'&money='.$data['price'];
+              // header("Location:".$urls);
                 //$this->redirect('Api/Weixinpay/pay',array('out_trade_no'=>$order_no));
                 
             }

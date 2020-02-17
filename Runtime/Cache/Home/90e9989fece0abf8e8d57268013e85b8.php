@@ -340,16 +340,16 @@
         
             <div class="recharge_box" style="margin-top: 0;border-top: 0; padding-bottom: 40px;">
                     <input type="hidden" name="payment_type" id="payment_type" value="wechat">
-                    <!--<p>选择支付方式：</p>-->
-                   <!-- <label data-key="alipay">
+                  <p>选择支付方式：</p>
+                    <label data-key="alipay">
                         <i class="alipay"></i> 支付宝支付 <span></span>
-                    </label>-->
-                    <label data-key="wechat">
-                        <i class="wechat"></i> 微信支付 <span></span>
                     </label>
+                <!--    <label data-key="wechat">
+                        <i class="wechat"></i> 微信支付 <span></span>
+                    </label>-->
                 </div>
             <!--<button class="vip_lijisj" type="button" >暂时关闭充值</button>-->
-            <button type="submit" id="submit" class="vip_lijisj">立即升级<span id="show_price_1"></span></button>
+            <button type="submit" id="submit" class="vip_lijisj">立即升级666<span id="show_price_1"></span></button>
         
         </form>
 
