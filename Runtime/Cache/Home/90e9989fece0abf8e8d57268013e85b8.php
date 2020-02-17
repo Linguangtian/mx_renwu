@@ -1,5 +1,4 @@
 <?php if (!defined('THINK_PATH')) exit(); $title = "购买会员";?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,7 +27,6 @@
         var SITE_URL  = 'https:' == document.location.protocol ?'https://' : 'http://' + "<?php echo $_SERVER['HTTP_HOST'];?>";
     </script>
 </head>
-
 <style type="text/css">
 	.vip_car{
 		width: 100%;
@@ -182,16 +180,15 @@
 	}
 	.vio_rwktlb{
 		width: 92%;
-		height: 8rem;
+
 		margin-left: 4%;
 	}
 	.vio_rwktlb li{
-		width: 30%;
-		height: 7.5rem;
-		border: 1px #f5f5f5 solid;
-		border-radius: 0.5rem;
-		float: left;
+		border-right: 1px solid #d81e06;
+		border-left: 1px solid #d81e06;
+		height: 8rem;
 		box-sizing: border-box;
+		border-radius: 1rem;
 		margin-left: 2.5%;
 		/*box-shadow: 0 1px 1px #c132cc;*/
 		
@@ -203,16 +200,21 @@
 		text-align: center;
 		font-size: 16px;
 		margin-top: 0.5rem;
-		color: #000;
+		color: #ffffff;
+		border-top-left-radius:1em;
+		border-top-right-radius:1em;
+
+		background: #d81e06;
+
 	}
 	.vip_hyjg{
 		width: 100%;
-		height: 2rem;
-		line-height: 2rem;
+		height: 1.6rem;
+		line-height: 1.6rem;
 		text-align: center;
-		font-size: 20px;
+		font-size: 16px;
 		font-weight: bold;
-		margin-top: 0.5rem;
+		margin-top: 0.2rem;
 		color: #c132cc;
 	}
 	.vip_hyjg span{
@@ -222,26 +224,25 @@
 	}
 	.vip_yuanjia{
 		width: 100%;
-		height: 2rem;
-		line-height: 2rem;
+		height: 1.3rem;
+		line-height: 1.3rem;
 		text-align: center;
 		/*text-decoration:line-through;*/
 		font-size: 12px;
 		color:#a6a6a6;
 	}
 	.vio_rwktlb .active{
-		width: 30%;
-		height: 7.5rem;
-		border: 1px #c132cc solid;
-		border-radius: 0.5rem;
-		float: left;
-		box-sizing: border-box;
-		margin-left: 2.5%;
+
 		background: #c132cc;
 	}
 	.vio_rwktlb .active p{
 		color: #fff;
 	}
+	.active .vip_hylss{
+		background: #c132cc;
+
+	}
+
 	.recharge_box{
 		width: 84%;
 		margin-left: 8%;
@@ -327,13 +328,18 @@
         		<?php if(is_array($member_level)): $i = 0; $__LIST__ = $member_level;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="sub <?php if($vo['level'] > $member['level']): ?>lv<?php else: ?>jinzhi<?php endif; ?>" data-id="<?php echo ($vo["level"]); ?>" data-price="<?php echo ($vo["price"]); ?>" >
         			<p class="vip_hylss"><?php echo ($vo["name"]); ?></p>
         			<p class="vip_hyjg"><?php echo ($vo["price"]); ?><span>元</span></p>
-        			<p class="vip_yuanjia">会员永久有效</p>
+        			<p class="vip_yuanjia">每日限制任务数<?php echo ($vo["day_limit_task_num"]); ?>
+					<br/>
+						一级推荐人返佣：<?php echo ($vo["rebate_price_1"]); ?>
+						二级推荐人返佣：<?php echo ($vo["rebate_price_2"]); ?>
+						三级推荐人返佣：<?php echo ($vo["rebate_price_3"]); ?>
+					</p>
         		</li><?php endforeach; endif; else: echo "" ;endif; ?>
         		
         	</ul>
         </div>
-        
-        
+
+
 
         
         
@@ -347,9 +353,9 @@
                 <!--    <label data-key="wechat">
                         <i class="wechat"></i> 微信支付 <span></span>
                     </label>-->
-                </div>
+              </div>
             <!--<button class="vip_lijisj" type="button" >暂时关闭充值</button>-->
-            <button type="submit" id="submit" class="vip_lijisj">立即升级666<span id="show_price_1"></span></button>
+            <button type="submit" id="submit" class="vip_lijisj">立即升级<span id="show_price_1"></span></button>
         
         </form>
 
@@ -429,9 +435,15 @@
             $(this).find('span').addClass('active');
             var payment_type = $(this).attr('data-key');
             $('#payment_type').val(payment_type);
+
+
         });
 
         $('#vip_sel .sub.lv').click(function(){
+
+            var t =document.body.clientHeight;
+            window.scroll({top:t,left:0,behavior:'smooth' });
+
             var price = $(this).attr('data-price');
             var level = $(this).attr('data-id');
             $(this).addClass('active').siblings().removeClass('active');

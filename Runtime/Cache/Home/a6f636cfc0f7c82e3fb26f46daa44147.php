@@ -62,9 +62,9 @@
 </div>
 
 <div class="task_index_rwflll">
-	<a href="<?php echo U('Task/lists_lb',array('lb'=>1));?>" style="background: #c132cc;">朋友圈任务</a>
-<!--	<a href="<?php echo U('Task/lists_lb',array('lb'=>2));?>" style="float: right;">朋友圈任务</a>
-	<a href="<?php echo U('lists_sub',array('level'=>1));?>">网红任务</a>
+	<a href="<?php echo U('Task/lists_lb',array('lb'=>1));?>" style="background: #c132cc;">抖音任务</a>
+	<a href="<?php echo U('Task/lists_lb',array('lb'=>2));?>" style="float: right;">快手任务</a>
+	<!--<a href="<?php echo U('lists_sub',array('level'=>1));?>">网红任务</a>
 	<a href="<?php echo U('lists_sub',array('level'=>2));?>" style="float: right;">明星任务</a>
 	<a href="<?php echo U('lists_sub',array('level'=>0));?>" style="width: 100%;">普通任务</a>-->
 </div>

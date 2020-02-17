@@ -6479,7 +6479,7 @@ SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM dt_auth_group_access a INNER J
 SQL: SHOW COLUMNS FROM `dt_auth_rule` [ RunTime:0.0008s ]
 SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20','1','2','3','4','5','64','7','8','9','10','11','12','13','14','15','16','123','124','125','19','164','104','105','106','108','118','153','109','110','111','112','117','148','149','150','185','134','135','136','137','139','151','182','183','184','186','161','165','166','167','147','162','163','179','180','181','157','158','168','169','171','172','173','174','175','176','177','178') AND `type` = 1 AND `status` = 1  [ RunTime:0.0004s ]
 SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0009s ]
-SQL: INSERT INTO `dt_task` (`id`,`title`,`price`,`type`,`taskuser`,`level`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('0','星推宝推广','2','0','','1','1000','1584115199','','','<img src=\"/Uploads/image/20191227/20191227075637_64553.jpg\" alt=\"\" />','1577404599') [ RunTime:0.0005s ]
+SQL: INSERT INTO `dt_task` (`id`,`title`,`price`,`type`,`taskuser`,`level`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('0','超热点推广','2','0','','1','1000','1584115199','','','<img src=\"/Uploads/image/20191227/20191227075637_64553.jpg\" alt=\"\" />','1577404599') [ RunTime:0.0005s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
@@ -6580,7 +6580,7 @@ SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20',
 SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0008s ]
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 65 行.
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 66 行.
-SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('星推宝推广','2','0','','1','2','1000','1584115199','','','<img src=\"/Uploads/image/20191227/20191227075637_64553.jpg\" alt=\"\" />','1577404616') [ RunTime:0.0005s ]
+SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('超热点推广','2','0','','1','2','1000','1584115199','','','<img src=\"/Uploads/image/20191227/20191227075637_64553.jpg\" alt=\"\" />','1577404616') [ RunTime:0.0005s ]
 SQL: DELETE FROM `dt_task` WHERE `id` = 14 [ RunTime:0.0004s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
@@ -7090,7 +7090,7 @@ SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20',
 SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0009s ]
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 65 行.
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 66 行.
-SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('星推宝推广','2','0','','1','2','1000','1584115199','','','<img src=\"/Uploads/image/20191227/20191227075637_64553.jpg\" alt=\"\" />','1577404664') [ RunTime:0.0005s ]
+SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('超热点推广','2','0','','1','2','1000','1584115199','','','<img src=\"/Uploads/image/20191227/20191227075637_64553.jpg\" alt=\"\" />','1577404664') [ RunTime:0.0005s ]
 SQL: DELETE FROM `dt_task` WHERE `id` = 15 [ RunTime:0.0004s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
@@ -7294,7 +7294,7 @@ SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20',
 SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0009s ]
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 65 行.
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 66 行.
-SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('星推宝推广','2','0','','1','2','1000','1584115199','','','<img src=\"/Uploads/image/20191227/20191227075637_64553.jpg\" alt=\"\" />','1577404677') [ RunTime:0.0005s ]
+SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('超热点推广','2','0','','1','2','1000','1584115199','','','<img src=\"/Uploads/image/20191227/20191227075637_64553.jpg\" alt=\"\" />','1577404677') [ RunTime:0.0005s ]
 SQL: DELETE FROM `dt_task` WHERE `id` = 20 [ RunTime:0.0004s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
@@ -10844,7 +10844,7 @@ SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20',
 SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0007s ]
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 66 行.
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 67 行.
-SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('星推宝推广','2','0','','1','2','1000','1584115199','','','<img src=\"/Uploads/image/20191227/20191227075637_64553.jpg\" alt=\"\" />','1577446316') [ RunTime:0.0004s ]
+SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('超热点推广','2','0','','1','2','1000','1584115199','','','<img src=\"/Uploads/image/20191227/20191227075637_64553.jpg\" alt=\"\" />','1577446316') [ RunTime:0.0004s ]
 SQL: DELETE FROM `dt_task` WHERE `id` = 22 [ RunTime:0.0003s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--

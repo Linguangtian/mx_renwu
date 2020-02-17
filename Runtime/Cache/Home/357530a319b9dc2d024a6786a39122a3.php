@@ -28,10 +28,29 @@
     </script>
 </head>
 <script type="text/javascript" src="/tpl/Public/js/clipboard.min.js"></script>
+<style>
+	.renwu_act{
+		height:3rem; display:flex;width: 100% ;padding-top: 1rem;
+	}
+	.renwu_act>div{
+		width: 50%;text-align: center;
+	}
+	.renwu_act a{
+		padding: 0.3rem 0.4rem;
+		border-radius: 0.5rem;
+		color: #ffffff;
+	}
+	.renwu_act .al{
+		background: #b02fd3;
+	}
+	.renwu_act .a2{
+		background: red;
+	}
+</style>
 <body class="show_bg">
 	
 	
-	<div class="show_top_o">
+	<div class="show_top_o" style=" height: 16rem;">
 		
 		<!--logo-->
 		
@@ -39,7 +58,7 @@
 			<img src="/tpl/Public/images/eee.png"/>
 			<div class="index_btswz" style="margin-left: 0;width: 50%;">
 					<p class="index_bta"><?php echo ($show["title"]); ?></p>
-					<p class="index_tag"> <span>优质任务</span> <span>朋友圈ex</span> </p>
+					<p class="index_tag"> <span>优质任务</span>  </p>
 				</div>
 				<p class="show_yj">+<?php echo (floatval($show["price"])); ?>元</p>
 		</div>
@@ -48,17 +67,24 @@
 		
 		<!--logo结束-->
 		
-		<a class="show_lqjl" href="<?php echo ($show["info"]); ?>">复制保存文字图片 <span>>朋友圈发布图文</span>  <span>>30分钟后上传截图等待审核</span>   </a>
+		<a class="show_lqjl" href="<?php echo ($show["info"]); ?>">打开链接/复制链接 <span>>完成操作</span>  <span>>上传截图等待审核</span>   </a>
+		<div class="clear"></div>
+		<div class="renwu_act" >
+			<div class="act_li"  ><a class="al" href="<?php echo ($show["tolink"]); ?>" target="_blank" >打开视频</a></div>
+			<div   class="act_li" ><a href="javascript:void(0)"  data-clipboard-action="copy" data-clipboard-target=".lianjie" id="copy3" class="a2">复制链接</a></div>
+		</div>
+
 	</div>
-	
-	
+	<div class="lianjie" style="display: none">
+		<?php echo ($show["tolink"]); ?>
+	</div>
 	<div class="show_rwxq">
         <?php echo ($show["content"]); ?>
 	</div>
 	<div style="clear:both;height:10px;width:100%"></div>
-	<a href="javascript:void(0)" id="copy2" data-clipboard-action="copy" data-clipboard-target=".show_rwxq" style="display:block;width:130px;height:40px;border:1px solid #EEAD0E;clear:both;text-align:center;line-height:40px;border-radius:10px;color:#EEAD0E;margin:10px auto;font-size:16px; ">一键复制文案</a>
+<!--	<a href="javascript:void(0)" id="copy2" data-clipboard-action="copy" data-clipboard-target=".show_rwxq" style="display:block;width:130px;height:40px;border:1px solid #EEAD0E;clear:both;text-align:center;line-height:40px;border-radius:10px;color:#EEAD0E;margin:10px auto;font-size:16px; ">一键复制文案</a>
 	
-	
+	-->
 	
 	
 	
@@ -76,6 +102,10 @@
 <script>
     //复制文案
     var clipboard = new ClipboardJS('#copy2');
+    clipboard.on('success', function(e) {
+        sp_alert('复制成功');
+    });
+  var clipboard = new ClipboardJS('#copy3');
     clipboard.on('success', function(e) {
         sp_alert('复制成功');
     });

@@ -76,13 +76,21 @@
             </td>
         </tr>
   
-         <tr>
-            <th>朋友圈名称</th>
+       <!--  <tr>
+            <th>名称</th>
             <td>
                 <input class="col-xs-12 col-sm-5" type="text" name="taskuser" value="<?php echo ($info["taskuser"]); ?>">
             </td>
         </tr>
-  
+-->
+        <tr>
+            <th>连接地址</th>
+            <td>
+                <input class="col-xs-12 col-sm-5" type="text" name="Tolink" value="<?php echo ($info["tolink"]); ?>">
+            </td>
+        </tr>
+
+
         <tr>
             <th>任务级别</th>
             <td>
@@ -91,12 +99,12 @@
         </tr>
 
  <tr>
-            <th>任务类别</th>
+        <th>任务类别</th>
        <td>
                 
                     <label>
-                      			<input type="radio" name="tasklb" value="1" style="height: inherit" <?php if($info['tasklb'] == 1): ?>checked<?php endif; ?> >朋友圈任务</label> &nbsp; &nbsp; &nbsp;
-                       <label> 	<input type="radio" name="tasklb" value="2" style="height: inherit" <?php if($info['tasklb'] == 2): ?>checked<?php endif; ?> >朋友圈任务<?php echo ($vv['tasklb']); ?></label> &nbsp; &nbsp; &nbsp;
+                      			<input type="radio" name="tasklb" value="1" style="height: inherit" <?php if($info['tasklb'] == 1): ?>checked<?php endif; ?> >抖音任务</label> &nbsp; &nbsp; &nbsp;
+                       <label> 	<input type="radio" name="tasklb" value="2" style="height: inherit" <?php if($info['tasklb'] == 2): ?>checked<?php endif; ?> >快手任务<?php echo ($vv['tasklb']); ?></label> &nbsp; &nbsp; &nbsp;
               			
 				 
                

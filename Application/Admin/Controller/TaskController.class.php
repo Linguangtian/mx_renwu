@@ -94,6 +94,7 @@ class TaskController extends AdminBaseController{
             $id = intval($data[$model->getPk()]);
             if( $id > 0) {
                 $info = $model->find ( $id );
+
                 $this->assign ( 'info', $info );
             }
             //会员等级

@@ -26,7 +26,7 @@
 	
 	<!--标题内容-->
 	<div class="index_bt">
-		<p class="index_hyxx">Hi,欢迎来到星推宝APP。</p>
+		<p class="index_hyxx">Hi,欢迎来到超热点APP。</p>
 	</div>
 	
 	<!--头部余额内容-->
@@ -101,7 +101,7 @@
 					<!--标题与内容-->
 					<div class="index_rw_msss">
 						<p class="index_rw_ms_bt"> <?php echo ($vo["title"]); ?></p>
-						<p class="index_rw_ms_xqq">星推宝做任务的账号达到要求才可领取的任务，相应的要求比较高，获得佣金也会增加。
+						<p class="index_rw_ms_xqq">超热点做任务的账号达到要求才可领取的任务，相应的要求比较高，获得佣金也会增加。
 </p>
 					</div>
 					
@@ -112,7 +112,9 @@
 				</div>
 				
 				<div class="index_rw_zxmss">
-					<p>任务分类：<span><?php if($vo["tasklb"] == '1'): ?>朋友圈任务<?php else: ?>朋友圈任务<?php endif; ?></span> <span class="index_gjrw">
+				<!--	<span><?php if($vo["tasklb"] == '1'): ?>抖音任务<?php else: ?>抖音任务<?php endif; ?></span>-->
+
+					<p>任务级别： <span>
                     
                      <?php if(is_array($level)): $i = 0; $__LIST__ = $level;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vv): $mod = ($i % 2 );++$i; if($vv['level'] == $vo['level']): echo ($vv["name"]); ?>任务<?php endif; endforeach; endif; else: echo "" ;endif; ?>
                     

@@ -64,7 +64,7 @@
 					<!--标题与内容-->
 					<div class="index_rw_msss">
 						<p class="index_rw_ms_bt"><?php echo ($vo["title"]); ?></p>
-						<p class="index_rw_ms_xqq">朋友圈ex做任务的账号达到要求才可领取的任务，相应的要求比较高，获得佣金也会增加。
+						<p class="index_rw_ms_xqq">任务的账号达到要求才可领取的任务，相应的要求比较高，获得佣金也会增加。
 </p>
 					</div>
 					
@@ -75,7 +75,7 @@
 				</div>
 				
 				<div class="index_rw_zxmss">
-					<p>任务分类：<?php if($vo["tasklb"] == '1'): ?>朋友圈任务<?php else: ?>朋友圈任务<?php endif; ?></p>
+					<p>任务分类：<?php if($vo["tasklb"] == '1'): ?>抖音任务<?php else: ?>快手任务<?php endif; ?></p>
 					<p>任务名额：<?php echo ($vo["max_num"]); ?></p>
 				</div>
 				

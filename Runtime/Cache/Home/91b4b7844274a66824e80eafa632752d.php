@@ -75,7 +75,7 @@
 				</div>
 				
 				<div class="index_rw_zxmss">
-					<p>任务分类：<?php if($vo["tasklb"] == '1'): ?>朋友圈任务<?php else: ?>朋友圈任务<?php endif; ?></p>
+					<p>任务分类：<?php if($vo["tasklb"] == '1'): ?>抖音任务<?php else: ?>抖音任务<?php endif; ?></p>
 					<p>任务名额：<?php echo ($vo["max_num"]); ?></p>
 				</div>
 				

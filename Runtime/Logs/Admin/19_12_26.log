@@ -921,7 +921,7 @@ SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20',
 SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0009s ]
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 65 行.
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 66 行.
-SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('朋友圈任务','3.33','0','朋友圈任务','0','2','1000','1593532799','','http://www.gifshow.com/fw/photo/3xr67cm454a67hk?fid=534373442&cc=share_weibo&groupName=E_2_181030224916592_G_1&appType=21&docId=34&photoId=3xr67cm454a67hk&shareId=46219022826&shareToken=X-afDRPF8XuJC_-3pGDGQ5SGc91Mi&userId=3xxw668p9auubhs&shareType=2&et=×tamp=1563717411003','<p>
+SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('抖音任务','3.33','0','抖音任务','0','2','1000','1593532799','','http://www.gifshow.com/fw/photo/3xr67cm454a67hk?fid=534373442&cc=share_weibo&groupName=E_2_181030224916592_G_1&appType=21&docId=34&photoId=3xr67cm454a67hk&shareId=46219022826&shareToken=X-afDRPF8XuJC_-3pGDGQ5SGc91Mi&userId=3xxw668p9auubhs&shareType=2&et=×tamp=1563717411003','<p>
 	拉芳正品洗发水护发素套装去屑止痒控油洗发露男女士香水型洗头膏，【购买方式】&nbsp;长按复制本文，打开【手机APP】(w8Hw10VPKUL)立即购买&nbsp;
 </p>
 <p>
@@ -1058,7 +1058,7 @@ SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20',
 SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0007s ]
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 65 行.
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 66 行.
-SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('朋友圈任务','3.33','0','朋友圈任务','0','2','1000','1593532799','','http://www.gifshow.com/fw/photo/3xr67cm454a67hk?fid=534373442&cc=share_weibo&groupName=E_2_181030224916592_G_1&appType=21&docId=34&photoId=3xr67cm454a67hk&shareId=46219022826&shareToken=X-afDRPF8XuJC_-3pGDGQ5SGc91Mi&userId=3xxw668p9auubhs&shareType=2&et=×tamp=1563717411003','<p>
+SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('抖音任务','3.33','0','抖音任务','0','2','1000','1593532799','','http://www.gifshow.com/fw/photo/3xr67cm454a67hk?fid=534373442&cc=share_weibo&groupName=E_2_181030224916592_G_1&appType=21&docId=34&photoId=3xr67cm454a67hk&shareId=46219022826&shareToken=X-afDRPF8XuJC_-3pGDGQ5SGc91Mi&userId=3xxw668p9auubhs&shareType=2&et=×tamp=1563717411003','<p>
 	拉芳正品洗发水护发素套装去屑止痒控油洗发露男女士香水型洗头膏，【购买方式】&nbsp;长按复制本文，打开【手机APP】(w8Hw10VPKUL)立即购买&nbsp;
 </p>
 <p>
@@ -1164,7 +1164,7 @@ SQL: SELECT `condition`,`name` FROM `dt_auth_rule` WHERE `id` IN ('6','96','20',
 SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0008s ]
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 65 行.
 NOTIC: [8] Undefined index: update_time /www/wwwroot/1lc.blxld.com/Application/Admin/Controller/TaskController.class.php 第 66 行.
-SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('朋友圈任务','3.33','0','朋友圈任务','0','2','1000','1593532799','','http://www.gifshow.com/fw/photo/3xr67cm454a67hk?fid=534373442&cc=share_weibo&groupName=E_2_181030224916592_G_1&appType=21&docId=34&photoId=3xr67cm454a67hk&shareId=46219022826&shareToken=X-afDRPF8XuJC_-3pGDGQ5SGc91Mi&userId=3xxw668p9auubhs&shareType=2&et=×tamp=1563717411003','<p>
+SQL: INSERT INTO `dt_task` (`title`,`price`,`type`,`taskuser`,`level`,`tasklb`,`max_num`,`end_time`,`thumb`,`info`,`content`,`create_time`) VALUES ('抖音任务','3.33','0','抖音任务','0','2','1000','1593532799','','http://www.gifshow.com/fw/photo/3xr67cm454a67hk?fid=534373442&cc=share_weibo&groupName=E_2_181030224916592_G_1&appType=21&docId=34&photoId=3xr67cm454a67hk&shareId=46219022826&shareToken=X-afDRPF8XuJC_-3pGDGQ5SGc91Mi&userId=3xxw668p9auubhs&shareType=2&et=×tamp=1563717411003','<p>
 	<span style=\"font-size:24px;\">拉芳正品洗发水护发素套装去屑止痒控油洗发露男女士香水型洗头膏，【购买方式】&nbsp;长按复制本文，打开【手机APP】(w8Hw10VPKUL)立即购买&nbsp;</span>
 </p>
 <p>
