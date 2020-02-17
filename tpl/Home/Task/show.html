@@ -1,0 +1,79 @@
+{~$title = $show['title']}
+<include file="Public:header"/>
+<script type="text/javascript" src="__PUBLIC_JS__/clipboard.min.js"></script>
+<body class="show_bg">
+	
+	
+	<div class="show_top_o">
+		
+		<!--logo-->
+		
+		<div class="show_top_logo">
+			<img src="__PUBLIC_IMAGES__/eee.png"/>
+			<div class="index_btswz" style="margin-left: 0;width: 50%;">
+					<p class="index_bta">{$show.title}</p>
+					<p class="index_tag"> <span>优质任务</span> <span>朋友圈ex</span> </p>
+				</div>
+				<p class="show_yj">+{$show.price|floatval}元</p>
+		</div>
+		
+		<p class="show_rwlq">亲，请严格按照任务要求做任务哟！</p>
+		
+		<!--logo结束-->
+		
+		<a class="show_lqjl" href="{$show.info}">复制保存文字图片 <span>>朋友圈发布图文</span>  <span>>30分钟后上传截图等待审核</span>   </a>
+	</div>
+	
+	
+	<div class="show_rwxq">
+        {$show.content}
+	</div>
+	<div style="clear:both;height:10px;width:100%"></div>
+	<a href="javascript:void(0)" id="copy2" data-clipboard-action="copy" data-clipboard-target=".show_rwxq" style="display:block;width:130px;height:40px;border:1px solid #EEAD0E;clear:both;text-align:center;line-height:40px;border-radius:10px;color:#EEAD0E;margin:10px auto;font-size:16px; ">一键复制文案</a>
+	
+	
+	
+	
+	
+	<div class="show_rwxf">
+        <if condition="$btn_status eq 0">
+            <button type="button" class="bala-btna" disabled>{$status_text}</button>
+        </if>
+        <if condition="$btn_status eq 1">
+            <button type="button" class="bala-btn get_task" style="background: #b02fd3;border: none;float: left;">{$status_text}</button>
+        </if>
+        <if condition="$btn_status eq 2">
+            <a href="{:U('submission_task_do',array('id'=>$task_apply['id']))}" class="bala-btn" style="background: #b02fd3;border: none;float: left;">{$status_text}</a>
+        </if>
+    </div>
+
+<!-- 底部联系部分 开始 -->
+
+</body>
+</html>
+
+<script>
+    //复制文案
+    var clipboard = new ClipboardJS('#copy2');
+    clipboard.on('success', function(e) {
+        sp_alert('复制成功');
+    });
+
+    clipboard.on('error', function(e) {
+        sp_alert('复制信息出错，请手动复制');
+    });
+
+    //领取任务
+    $('.get_task').click(function(){
+        var task_id = "{$show.id}";
+        var url = "{:U('get_task')}";
+        $.post(url,{id:task_id},function(data){
+            if( data.status == 1 ) {
+                sp_alert(data.info);
+                $('.bala-btn').css('background-color','#ccc').html('任务已领取');
+            } else {
+                sp_alert(data.info);
+            }
+        },'json')
+    })
+</script>

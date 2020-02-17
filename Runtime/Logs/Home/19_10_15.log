@@ -1,0 +1,1254 @@
+[ 2019-10-15T19:22:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0510s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT `id`,`title`,`level`,`price`,`create_time`,`max_num`,`apply_num`,max_num-apply_num as leftnum,`tasklb` FROM `dt_task` WHERE `status` = 1 ORDER BY `id` desc LIMIT 1000   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0210s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0290s ]
+SQL: SELECT `price` FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member_tixian` [ RunTime:0.0060s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_member_tixian` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_page` [ RunTime:0.0030s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT `id`,`title`,`update_time` FROM `dt_page` WHERE `recommend` = 1 ORDER BY `update_time` asc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: version D:\wamp\www\pan\douzhan3\Runtime\Cache\Home\d678f280cf84122e981f201997603ea5.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:22:47+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0020s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88888 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:23:11+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0020s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88888 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88888 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88888 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88888 or p2=88888 or p3=88888) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88888 or p2=88888 or p3=88888) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88888 or p2=88888 or p3=88888 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88888 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:25:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:25:09+08:00 ] 127.0.0.1 /index.php/Home/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:25:19+08:00 ] 127.0.0.1 /index.php/Home/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `username` = '17126378382' AND `password` = '0473de2517a09a9393c54bee772f6c67' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-10-15T19:25:23+08:00 ] 127.0.0.1 /index.php/Home/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `username` = '17126378382' AND `password` = 'd7a31ea0e38dc781ad32a5a94d6b48cc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `last_login_time` FROM `dt_member` WHERE `id` = 88891 LIMIT 1571138723   [ RunTime:0.0000s ]
+
+[ 2019-10-15T19:25:25+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_task` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT `id`,`title`,`level`,`price`,`create_time`,`max_num`,`apply_num`,max_num-apply_num as leftnum,`tasklb` FROM `dt_task` WHERE `status` = 1 ORDER BY `id` desc LIMIT 1000   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member_tixian` [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_member_tixian` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_page` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT `id`,`title`,`update_time` FROM `dt_page` WHERE `recommend` = 1 ORDER BY `update_time` asc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: version D:\wamp\www\pan\douzhan3\Runtime\Cache\Home\d678f280cf84122e981f201997603ea5.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:25:29+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:25:31+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0010s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88891 or p2=88891 or p3=88891 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88891 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:25:49+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88891 or p2=88891 or p3=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88891 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:25:51+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:26:17+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:26:22+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `dt_member` SET `level`='1' WHERE `id` = 88891 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `price`=price-58.00 WHERE `id` = 88891 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member_price_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_member_price_log` (`member_id`,`price`,`remark`,`create_time`,`type`,`no`) VALUES ('88891','-58','会员升级消费','1571138782','97','') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0020s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`phone`,`p1`,`p2`,`p3`,`level` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_sale_list` (`member_id`,`from_member_id`,`order_id`,`price`,`remark`,`create_time`,`type`) VALUES ('88888','88891','31','5.00','推荐会员提成，来源用户17126378382','1571138782','3') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `price`=price+5.00 WHERE `id` = 88888 [ RunTime:0.0000s ]
+SQL: UPDATE `dt_member` SET `total_price`=total_price+5.00 WHERE `id` = 88888 [ RunTime:0.0000s ]
+SQL: INSERT INTO `dt_member_price_log` (`member_id`,`price`,`remark`,`create_time`,`type`,`no`) VALUES ('88888','5.00','推荐会员提成，来源用户17126378382','1571138782','3','6') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: vip_msg D:\wamp\www\pan\douzhan3\Application\Common\Model\SystemConfigModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 902 行.
+SQL: INSERT INTO `dt_notice` (`msg`,`create_time`,`has_view`) VALUES ('恭喜您，您的VIP等级已升级为','1571138782','0') [ RunTime:0.0010s ]
+
+[ 2019-10-15T19:26:22+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:26:32+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88891 or p2=88891 or p3=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88891 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:27:41+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88891 or p2=88891 or p3=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88891 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:27:43+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:27:46+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `level`='2' WHERE `id` = 88891 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `price`=price-188.00 WHERE `id` = 88891 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_member_price_log` [ RunTime:0.0000s ]
+SQL: INSERT INTO `dt_member_price_log` (`member_id`,`price`,`remark`,`create_time`,`type`,`no`) VALUES ('88891','-188','会员升级消费','1571138866','97','') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`phone`,`p1`,`p2`,`p3`,`level` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_sale_list` (`member_id`,`from_member_id`,`order_id`,`price`,`remark`,`create_time`,`type`) VALUES ('88888','88891','33','20.00','推荐会员提成，来源用户17126378382','1571138866','3') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `price`=price+20.00 WHERE `id` = 88888 [ RunTime:0.0000s ]
+SQL: UPDATE `dt_member` SET `total_price`=total_price+20.00 WHERE `id` = 88888 [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_member_price_log` (`member_id`,`price`,`remark`,`create_time`,`type`,`no`) VALUES ('88888','20.00','推荐会员提成，来源用户17126378382','1571138866','3','7') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: vip_msg D:\wamp\www\pan\douzhan3\Application\Common\Model\SystemConfigModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_notice` (`member_id`,`msg`,`create_time`,`has_view`) VALUES ('88891','恭喜您，您的VIP等级已升级为','1571138866','0') [ RunTime:0.0000s ]
+
+[ 2019-10-15T19:27:46+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:28:24+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-10-15T19:29:33+08:00 ] 127.0.0.1 /index.php/Home/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:48:14+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88888 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88888 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88888 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88888 or p2=88888 or p3=88888) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88888 or p2=88888 or p3=88888) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88888 or p2=88888 or p3=88888 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88888 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:48:39+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:49:03+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0020s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0010s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88888 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88888 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88888 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88888 or p2=88888 or p3=88888) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88888 or p2=88888 or p3=88888) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88888 or p2=88888 or p3=88888 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88888 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:49:05+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88888 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:49:43+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:49:55+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88888 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-10-15T19:49:58+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:49:58+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88888 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:50:47+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88888 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:51:10+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88888 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T19:51:12+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-10-15T19:51:17+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T19:51:21+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `level`='1' WHERE `id` = 88891 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `price`=price-58.00 WHERE `id` = 88891 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member_price_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_member_price_log` (`member_id`,`price`,`remark`,`create_time`,`type`,`no`) VALUES ('88891','-58','会员升级消费','1571140281','97','') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`phone`,`p1`,`p2`,`p3`,`level` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_sale_list` (`member_id`,`from_member_id`,`order_id`,`price`,`remark`,`create_time`,`type`) VALUES ('88888','88891','35','5.00','推荐会员提成，来源用户17126378382','1571140281','3') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `price`=price+5.00 WHERE `id` = 88888 [ RunTime:0.0000s ]
+SQL: UPDATE `dt_member` SET `total_price`=total_price+5.00 WHERE `id` = 88888 [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_member_price_log` (`member_id`,`price`,`remark`,`create_time`,`type`,`no`) VALUES ('88888','5.00','推荐会员提成，来源用户17126378382','1571140281','3','8') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: vip_msg D:\wamp\www\pan\douzhan3\Application\Common\Model\SystemConfigModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_notice` (`member_id`,`msg`,`create_time`,`has_view`) VALUES ('88891','恭喜您，您的VIP等级已升级为','1571140281','0') [ RunTime:0.0000s ]
+
+[ 2019-10-15T19:51:21+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0010s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88891 or p2=88891 or p3=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88891 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T20:00:46+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0010s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88891 or p2=88891 or p3=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88891 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T20:00:48+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T20:00:51+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `dt_member` SET `level`='2' WHERE `id` = 88891 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `price`=price-188.00 WHERE `id` = 88891 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_member_price_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_member_price_log` (`member_id`,`price`,`remark`,`create_time`,`type`,`no`) VALUES ('88891','-188','会员升级消费','1571140851','97','') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`username`,`phone`,`p1`,`p2`,`p3`,`level` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0000s ]
+SQL: INSERT INTO `dt_sale_list` (`member_id`,`from_member_id`,`order_id`,`price`,`remark`,`create_time`,`type`) VALUES ('88888','88891','37','20.00','推荐会员提成，来源用户17126378382','1571140851','3') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `price`=price+20.00 WHERE `id` = 88888 [ RunTime:0.0000s ]
+SQL: UPDATE `dt_member` SET `total_price`=total_price+20.00 WHERE `id` = 88888 [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_member_price_log` (`member_id`,`price`,`remark`,`create_time`,`type`,`no`) VALUES ('88888','20.00','推荐会员提成，来源用户17126378382','1571140851','3','9') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: vip_msg D:\wamp\www\pan\douzhan3\Application\Common\Model\SystemConfigModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_notice` (`member_id`,`msg`,`create_time`,`has_view`) VALUES ('88891','恭喜您，您的VIP等级已升级为','1571140851','0') [ RunTime:0.0000s ]
+
+[ 2019-10-15T20:00:53+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0010s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88891 or p2=88891 or p3=88891 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88891 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T20:02:27+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88888 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-10-15T20:02:32+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T20:02:40+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_task_apply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_task_apply` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-10-15T20:02:42+08:00 ] 127.0.0.1 /index.php/Home/Member/vip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0000s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `dt_member` SET `level`='1' WHERE `id` = 88891 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0020s ]
+SQL: UPDATE `dt_member` SET `price`=price-58.00 WHERE `id` = 88891 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member_price_log` [ RunTime:0.0020s ]
+SQL: INSERT INTO `dt_member_price_log` (`member_id`,`price`,`remark`,`create_time`,`type`,`no`) VALUES ('88891','-58','会员升级消费','1571140962','97','') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`phone`,`p1`,`p2`,`p3`,`level` FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_sale_list` (`member_id`,`from_member_id`,`order_id`,`price`,`remark`,`create_time`,`type`) VALUES ('88888','88891','39','5.00','推荐会员提成，来源用户17126378382','1571140962','3') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0030s ]
+SQL: UPDATE `dt_member` SET `price`=price+5.00 WHERE `id` = 88888 [ RunTime:0.0010s ]
+SQL: UPDATE `dt_member` SET `total_price`=total_price+5.00 WHERE `id` = 88888 [ RunTime:0.0000s ]
+SQL: INSERT INTO `dt_member_price_log` (`member_id`,`price`,`remark`,`create_time`,`type`,`no`) VALUES ('88888','5.00','推荐会员提成，来源用户17126378382','1571140962','3','10') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: vip_msg D:\wamp\www\pan\douzhan3\Application\Common\Model\SystemConfigModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0010s ]
+SQL: INSERT INTO `dt_notice` (`member_id`,`msg`,`create_time`,`has_view`) VALUES ('88891','恭喜您，您的VIP等级已升级为','1571140962','0') [ RunTime:0.0000s ]
+
+[ 2019-10-15T20:02:46+08:00 ] 127.0.0.1 /index.php/Home/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_member` WHERE `id` = 88891 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0010s ]
+NOTIC: [8] Only variables should be passed by reference D:\wamp\www\pan\douzhan3\ThinkPHP\Library\Think\Db\Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_sale_list` [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 and DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `dt_sale_list` WHERE ( member_id=88891 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (TO_DAYS(from_unixtime(create_time)) = TO_DAYS(now()))  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE (  (p1=88891 or p2=88891 or p3=88891) and (DATE_FORMAT(from_unixtime(create_time),'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m')) ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_member` WHERE ( p1=88891 or p2=88891 or p3=88891 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dt_notice` WHERE ( (( member_id = 88891 ) or ( (is_system = 1 and role_type = 0) or ( is_system = 1 and role_type = 1 ) ) ) and create_time > 0  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

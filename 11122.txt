@@ -1,0 +1,22 @@
+Array
+(
+    [status] => y
+    [info] => 支付成功
+    [message_type] => weixin_pay
+    [client_uid] => pushf60207011170db58235ecfaa7782
+    [type] => sendToUid
+    [appkey] => 21337_dee15a4609b1d0d00b9d20b7e4ba34dd
+    [uid] => 154
+    [total_fee] => 1.00
+    [pay_title] => 微信支付
+    [order_no] => C88889C27105591321589
+    [client_id] => pushf60207011170db58235ecfaa7782
+    [sign] => 426e5a3c1e25a5582fd478fb7c0cabe2
+    [pay_type] => gren_qr
+    [pay_way] => wechat
+    [me_back_url] => http%3A%2F%2Flc.blxld.com%2F
+    [me_from] => http%3A%2F%2Flc.blxld.com%2Ffastpay%2Fdemo%2Fpay.php%3Forder_no%3DC88889C27105591321589%26payment_type%3Dwechat%26money%3D1.00
+    [notify_url] => http%3A%2F%2Flc.blxld.com%2FApi%2FIweipay%2Fnotify
+    [me_pri] => 1.00
+    [sign_notify] => 451e10b7f92f85a3964e28eb441af3c3
+)

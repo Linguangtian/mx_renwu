@@ -1,0 +1,183 @@
+[ 2019-12-27T01:32:26+08:00 ] 47.93.150.107 /Api/Iweipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `dt_recharge` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `order_no` = 'C88888C26074478930595' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-12-27T01:37:08+08:00 ] 47.93.150.107 /Api/Iweipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `dt_recharge` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `order_no` = 'C88888C26074478930595' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2019-12-27T04:28:06+08:00 ] 47.93.150.107 /Api/Iweipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `dt_recharge` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `order_no` = 'C88889C27920600366779' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0008s ]
+SQL: INSERT INTO `dt_pay` (`type`,`order_id`,`order_no`,`member_id`,`price`,`create_time`,`payment_type`,`platform_no`) VALUES ('1','40','C88889C27920600366779','88889','1.00','1577392086','wechat','C88889C27920600366779') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0008s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/1lc.blxld.com/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`username`,`phone`,`p1`,`p2`,`p3`,`level` FROM `dt_member` WHERE `id` = 88889 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `dt_recharge` SET `is_pay`='1' WHERE `id` = 40 [ RunTime:0.0004s ]
+SQL: UPDATE `dt_member` SET `level`='0' WHERE `id` = 88889 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: vip_msg /www/wwwroot/1lc.blxld.com/Application/Common/Model/SystemConfigModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0008s ]
+SQL: INSERT INTO `dt_notice` (`member_id`,`msg`,`create_time`,`has_view`) VALUES ('88889','恭喜您，您的VIP等级已升级为','1577392086','0') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2019-12-27T04:33:35+08:00 ] 222.175.7.85 /api/iweipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined index: sign_notify /www/wwwroot/1lc.blxld.com/Application/Api/Controller/IweipayController.class.php 第 96 行.
+NOTIC: [8] Undefined index: appkey /www/wwwroot/1lc.blxld.com/Application/Api/Controller/IweipayController.class.php 第 140 行.
+NOTIC: [8] Undefined index: order_no /www/wwwroot/1lc.blxld.com/Application/Api/Controller/IweipayController.class.php 第 140 行.
+NOTIC: [8] Undefined index: me_pri /www/wwwroot/1lc.blxld.com/Application/Api/Controller/IweipayController.class.php 第 140 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/1lc.blxld.com/Application/Api/Controller/IweipayController.class.php 第 140 行.
+
+[ 2019-12-27T04:33:48+08:00 ] 222.175.7.85 /api/iweipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `dt_recharge` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `order_no` = 'C88888C26074478930595' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0007s ]
+SQL: INSERT INTO `dt_pay` (`type`,`order_id`,`order_no`,`member_id`,`price`,`create_time`,`payment_type`,`platform_no`) VALUES ('1','24','C88888C26074478930595','88888','1.00','1577392428','alipay','C88888C26074478930595') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0007s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/1lc.blxld.com/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`phone`,`p1`,`p2`,`p3`,`level` FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `dt_recharge` SET `is_pay`='1' WHERE `id` = 24 [ RunTime:0.0003s ]
+SQL: UPDATE `dt_member` SET `level`='0' WHERE `id` = 88888 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: vip_msg /www/wwwroot/1lc.blxld.com/Application/Common/Model/SystemConfigModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0007s ]
+SQL: INSERT INTO `dt_notice` (`member_id`,`msg`,`create_time`,`has_view`) VALUES ('88888','恭喜您，您的VIP等级已升级为','1577392428','0') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2019-12-27T04:37:59+08:00 ] 222.175.7.85 /api/iweipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `dt_recharge` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `order_no` = 'C88888C26074478930595' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0007s ]
+SQL: INSERT INTO `dt_pay` (`type`,`order_id`,`order_no`,`member_id`,`price`,`create_time`,`payment_type`,`platform_no`) VALUES ('1','24','C88888C26074478930595','88888','1.00','1577392679','alipay','C88888C26074478930595') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0006s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/1lc.blxld.com/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`username`,`phone`,`p1`,`p2`,`p3`,`level` FROM `dt_member` WHERE `id` = 88888 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dt_recharge` SET `is_pay`='1' WHERE `id` = 24 [ RunTime:0.0004s ]
+SQL: UPDATE `dt_member` SET `level`='1' WHERE `id` = 88888 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: vip_msg /www/wwwroot/1lc.blxld.com/Application/Common/Model/SystemConfigModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0006s ]
+SQL: INSERT INTO `dt_notice` (`member_id`,`msg`,`create_time`,`has_view`) VALUES ('88888','恭喜您，您的VIP等级已升级为','1577392679','0') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2019-12-27T04:50:23+08:00 ] 47.93.150.107 /Api/Iweipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `dt_recharge` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `order_no` = 'C88889C27933939206458' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0007s ]
+SQL: INSERT INTO `dt_pay` (`type`,`order_id`,`order_no`,`member_id`,`price`,`create_time`,`payment_type`,`platform_no`) VALUES ('1','43','C88889C27933939206458','88889','1.00','1577393423','wechat','C88889C27933939206458') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0007s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/1lc.blxld.com/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`username`,`phone`,`p1`,`p2`,`p3`,`level` FROM `dt_member` WHERE `id` = 88889 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `dt_recharge` SET `is_pay`='1' WHERE `id` = 43 [ RunTime:0.0003s ]
+SQL: UPDATE `dt_member` SET `level`='1' WHERE `id` = 88889 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: vip_msg /www/wwwroot/1lc.blxld.com/Application/Common/Model/SystemConfigModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0005s ]
+SQL: INSERT INTO `dt_notice` (`member_id`,`msg`,`create_time`,`has_view`) VALUES ('88889','恭喜您，您的VIP等级已升级为','1577393423','0') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2019-12-27T09:36:31+08:00 ] 47.93.150.107 /Api/Iweipay/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `dt_recharge` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `order_no` = 'C88889C27105591321589' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dt_recharge` WHERE `id` = 45 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dt_pay` [ RunTime:0.0005s ]
+SQL: INSERT INTO `dt_pay` (`type`,`order_id`,`order_no`,`member_id`,`price`,`create_time`,`payment_type`,`platform_no`) VALUES ('1','45','C88889C27105591321589','88889','1.00','1577410591','wechat','C88889C27105591321589') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_level` [ RunTime:0.0005s ]
+NOTIC: [2048] Only variables should be passed by reference /www/wwwroot/1lc.blxld.com/ThinkPHP/Library/Think/Db/Driver.class.php 第 769 行.
+SQL: SELECT * FROM `dt_level` ORDER BY `id` asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `dt_member` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`username`,`phone`,`p1`,`p2`,`p3`,`level` FROM `dt_member` WHERE `id` = 88889 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dt_recharge` SET `is_pay`='1' WHERE `id` = 45 [ RunTime:0.0002s ]
+SQL: UPDATE `dt_member` SET `level`='1' WHERE `id` = 88889 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: vip_msg /www/wwwroot/1lc.blxld.com/Application/Common/Model/SystemConfigModel.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `dt_notice` [ RunTime:0.0005s ]
+SQL: INSERT INTO `dt_notice` (`member_id`,`msg`,`create_time`,`has_view`) VALUES ('88889','恭喜您，您的VIP等级已升级为','1577410591','0') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
