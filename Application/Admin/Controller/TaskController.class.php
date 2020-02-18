@@ -12,6 +12,7 @@ class TaskController extends AdminBaseController{
 
         //会员等级
         $level_list = LevelModel::get_member_level();
+
         //unset($level_list[3]);//不分钻石会员
         $this->assign ( 'level_list', $level_list );
 
@@ -24,6 +25,7 @@ class TaskController extends AdminBaseController{
         //列表数据
         $list = $this->_list ('task', $map );
         $task_type = C('TASK_TYPE');
+
         foreach( $list as &$_list ) {
             $_list['level_name'] = $level_list[$_list['level']]['name'];
             $_list['type_name'] = $task_type[$_list['type']];

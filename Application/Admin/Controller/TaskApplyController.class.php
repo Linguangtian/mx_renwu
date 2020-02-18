@@ -73,11 +73,12 @@ class TaskApplyController extends AdminBaseController{
             $data['shenhe_time'] = time();
             //$data['update_time'] = time();
 
+
             if (M ('task_apply')->save ($data) !== false) {
 
                 /*--------------返利逻辑------------*/
                 if( $status == 2 ) {
-                    $this->add_task_price($id);
+                    $this->new_add_task_price($id);
                 }
                 /*--------------//返利逻辑------------*/
 
@@ -113,7 +114,7 @@ class TaskApplyController extends AdminBaseController{
             foreach( $ids as $id ) {
                 $res = M('task_apply')->where(array('id'=>$id))->setField('status', $status);
                 if( $res && $status==2 ) {
-                    $this->add_task_price($id);
+                    $this->new_add_task_price($id);
                 }
             }
             $this->success('操作成功');
@@ -211,4 +212,90 @@ class TaskApplyController extends AdminBaseController{
             throw_exception('添加收益失败');
         }
     }
+
+
+
+
+
+
+
+    /*
+     * 2020.2.19
+     * 新任务提成
+     * */
+
+    private function new_add_task_price($id) {
+        $_data = M('task_apply')->where(array('id'=>$id))->find();
+        //$model_member = new MemberModel();
+
+        //任务人收入
+        $this->add_sale($id, $_data['price'], $_data['member_id'], 1, '任务收入' );
+        //$model_member->incPrice($_data['member_id'],$_data['price'],1,'任务收入',$id);
+
+        $member_data = M('member')->field('id,username,level,p1,p2,p3')->where(array('id'=>$_data['member_id']))->find();
+
+        $p1 =   $member_data['p1'];
+        $p2 =   $member_data['p2'];
+        $p3 =   $member_data['p3'];
+
+        if( $p1>0 ){
+             $renwu_pac1    = $this->cacu_pac($p1,2,1);
+             if($renwu_pac1 > 0){
+                 $price_1 = $_data['price'] * $renwu_pac1/100;
+                 $price_1 = sprintf("%.2f", $price_1);
+                 $this->add_sale($id, $price_1, $member_data['p1'], 2, '一级提成，来源用户'.$member_data['username'], $member_data['id'] );
+             }
+        }
+
+        if( $p2>0 ){
+             $renwu_pac2    = $this->cacu_pac($p2,2,2);
+
+             if($renwu_pac2 > 0){
+                 $price_2 = $_data['price'] * $renwu_pac2/100;
+                 $price_2 = sprintf("%.2f", $price_2);
+                 $this->add_sale($id, $price_2, $member_data['p2'], 2, '二级提成，来源用户'.$member_data['username'], $member_data['id'] );
+             }
+        }
+
+        if( $p3>0 ){
+             $renwu_pac3    = $this->cacu_pac($p3,2,3);
+
+             if($renwu_pac3 > 0){
+                 $price_3 = $_data['price'] * $renwu_pac3/100;
+                 $price_3 = sprintf("%.2f", $price_3);
+                 $this->add_sale($id, $price_3, $member_data['p3'], 2, '三级提成，来源用户'.$member_data['username'], $member_data['id'] );
+             }
+        }
+
+
+    }
+
+
+
+    /*
+     *
+     * 佣金计算
+     * act 1 佣金返利  2 任务分成
+     *
+     *
+     * */
+    function  cacu_pac($uid,$act=1,$daishu){
+
+        $level_data = M('member')->alias('m')
+                        ->join( C('DB_PREFIX').'level as l on l.level = m.level','left' )
+                        ->field('l.*')
+                        ->where(array('m.id'=>$uid))
+                        ->find();
+
+        //可享受代数
+        $dai_key   =   $act==1?'tuijian_dai':'renwu_dai';
+        if( $level_data[$dai_key] < $daishu ){
+                return 0;
+        }
+
+        $item   =   $act==1?'tuijian_pac':'renwu_pac';
+        $key    =   $item.$daishu;
+       return  $level_data[$key];
+    }
+
 }

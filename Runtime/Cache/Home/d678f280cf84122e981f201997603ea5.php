@@ -18,7 +18,7 @@
 
     <script type="text/javascript" src="/tpl/Public/js/func.js"></script>
 
-    <link rel="stylesheet" href="/tpl/Public/css/share.css?3"/>
+    <link rel="stylesheet" href="/tpl/Public/css/share.css?5"/>
     <link rel="stylesheet" href="/tpl/Public/css/font.css?3"/>
 </head>
 <body class="index_body">
@@ -33,7 +33,7 @@
 	<div class="index_ye">
 		<p class="index_ztsy">账户余额</p>
 		<p class="index_ztsy_dd"><?php echo ($member_price); ?>元</p>
-		<a class="index_tssy" href="<?php echo U('Member/vip');?>">提升收益</a>
+		<!--<a class="index_tssy" href="<?php echo U('Member/vip');?>">提升收益</a>-->
 		
 		<div class="index_zhyehsy">
 			<p class="index_syyys">平台用户：<?php echo ($member_total); ?>人</p>

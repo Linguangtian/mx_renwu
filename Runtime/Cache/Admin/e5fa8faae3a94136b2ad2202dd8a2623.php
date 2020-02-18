@@ -86,7 +86,7 @@
         <tr>
             <th>连接地址</th>
             <td>
-                <input class="col-xs-12 col-sm-5" type="text" name="Tolink" value="<?php echo ($info["tolink"]); ?>">
+                <input class="col-xs-12 col-sm-5" type="text" name="tolink" value="<?php echo ($info["tolink"]); ?>">
             </td>
         </tr>
 

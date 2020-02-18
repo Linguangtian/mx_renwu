@@ -41,7 +41,7 @@
 		color: #ffffff;
 	}
 	.renwu_act .al{
-		background: #b02fd3;
+		background: #f86442;
 	}
 	.renwu_act .a2{
 		background: red;
@@ -90,8 +90,8 @@
 	
 	<div class="show_rwxf">
         <?php if($btn_status == 0): ?><button type="button" class="bala-btna" disabled><?php echo ($status_text); ?></button><?php endif; ?>
-        <?php if($btn_status == 1): ?><button type="button" class="bala-btn get_task" style="background: #b02fd3;border: none;float: left;"><?php echo ($status_text); ?></button><?php endif; ?>
-        <?php if($btn_status == 2): ?><a href="<?php echo U('submission_task_do',array('id'=>$task_apply['id']));?>" class="bala-btn" style="background: #b02fd3;border: none;float: left;"><?php echo ($status_text); ?></a><?php endif; ?>
+        <?php if($btn_status == 1): ?><button type="button" class="bala-btn get_task" style="background: #f03851;border: none;float: left;"><?php echo ($status_text); ?></button><?php endif; ?>
+        <?php if($btn_status == 2): ?><a href="<?php echo U('submission_task_do',array('id'=>$task_apply['id']));?>" class="bala-btn" style="background: #f03851;border: none;float: left;"><?php echo ($status_text); ?></a><?php endif; ?>
     </div>
 
 <!-- 底部联系部分 开始 -->

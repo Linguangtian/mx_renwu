@@ -118,7 +118,7 @@
      		<a href="<?php echo U('Page/index');?>">
      			<li>
      				<img src="/tpl/Public/images/page_b.png" />
-     				<p style="color: #c132cc;font-size: 12px;">消息</p>
+     				<p style="color: #f03851;font-size: 12px;">消息</p>
      			</li>
      		</a>
      

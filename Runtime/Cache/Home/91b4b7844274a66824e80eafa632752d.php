@@ -99,7 +99,7 @@
 		<a href="<?php echo U('Task/index');?>">
 		<li>
 			<img src="/tpl/Public/images/task_b.png"/>
-			<p style="color: #c132cc;font-size: 12px;">大厅</p>
+			<p style="color: #f03851;font-size: 12px;">大厅</p>
 		</li>
 		</a>
 		

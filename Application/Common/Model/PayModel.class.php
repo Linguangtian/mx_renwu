@@ -95,24 +95,38 @@ class PayModel extends BaseModel{
         //升级用户为会员
         M('member')->where(array('id'=>$recharge['member_id']))->setField('level', $recharge['level']);
 
-        //给直接上级返利
         if( $member_data['p1']>0 ) {
-            if( $rebate_price_1>0 ) {
-                $this->add_sale($order_id, $rebate_price_1, $member_data['p1'], 3, '推荐会员提成，来源用户'.$member_data['username'], $member_data['id'] );
+            $tuij_pac1 = cacu_pac($member_data['p1'],1,1);
+            if( $tuij_pac1>0 ) {
+                    $price_1 =  $recharge['price'] * $tuij_pac1/100;
+                    $price_1 = sprintf("%.2f", $price_1);
+
+                $this->add_sale($order_id, $price_1, $member_data['p1'], 3, '推荐会员[一级]提成，来源用户'.$member_data['username'], $member_data['id'] );
             }
         }
-        //二级返利
+
         if( $member_data['p2']>0 ) {
-            if( $rebate_price_2>0 ) {
-                $this->add_sale($order_id, $rebate_price_2, $member_data['p2'], 3, '推荐会员提成，来源用户'.$member_data['username'], $member_data['id'] );
+            $tuij_pac2 = cacu_pac($member_data['p2'],1,2);
+            if( $tuij_pac2>0 ) {
+                $price_2 =  $recharge['price'] * $tuij_pac2/100;
+                $price_2 = sprintf("%.2f", $price_2);
+
+                $this->add_sale($order_id, $price_2, $member_data['p2'], 3, '推荐会员[二级]提成，来源用户'.$member_data['username'], $member_data['id'] );
             }
         }
-        //三级返利
+
+
         if( $member_data['p3']>0 ) {
-            if( $rebate_price_3>0 ) {
-                $this->add_sale($order_id, $rebate_price_3, $member_data['p3'], 3, '推荐会员提成，来源用户'.$member_data['username'], $member_data['id'] );
+            $tuij_pac3 = cacu_pac($member_data['p3'],1,3);
+            if( $tuij_pac3>0 ) {
+                $price_3 =  $recharge['price'] * $tuij_pac3/100;
+                $price_3 = sprintf("%.2f", $price_3);
+
+                $this->add_sale($order_id, $price_3, $member_data['p3'], 3, '推荐会员[三级]提成，来源用户'.$member_data['username'], $member_data['id'] );
             }
         }
+
+
 
         //信息提示
         $noticeModel = new NoticeModel();

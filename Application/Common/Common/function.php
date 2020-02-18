@@ -1986,3 +1986,23 @@ function sp_substr_cut($user_name){
     $lastStr     = mb_substr($user_name, -1, 1, 'utf-8');
     return $strlen == 2 ? $firstStr . str_repeat('*', mb_strlen($user_name, 'utf-8') - 1) : $firstStr . str_repeat("*", $strlen - 2) . $lastStr;
 }
+
+
+function  cacu_pac($uid,$act=1,$daishu){
+
+    $level_data = M('member')->alias('m')
+        ->join( C('DB_PREFIX').'level as l on l.level = m.level','left' )
+        ->field('l.*')
+        ->where(array('m.id'=>$uid))
+        ->find();
+
+    //可享受代数
+    $dai_key   =   $act==1?'tuijian_dai':'renwu_dai';
+    if( $level_data[$dai_key] < $daishu ){
+        return 0;
+    }
+
+    $item   =   $act==1?'tuijian_pac':'renwu_pac';
+    $key    =   $item.$daishu;
+    return  $level_data[$key];
+}

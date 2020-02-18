@@ -161,7 +161,7 @@
 		height: 2rem;
 		display: inline-block;
 		line-height: 2.2rem;
-		color: #c132cc;
+		color: #f03851;
 	}
 	.vip_xxjss li img{
 		width: 4rem;
@@ -190,7 +190,7 @@
 		box-sizing: border-box;
 		border-radius: 1rem;
 		margin-left: 2.5%;
-		/*box-shadow: 0 1px 1px #c132cc;*/
+		/*box-shadow: 0 1px 1px #f03851;*/
 		
 	}
 	.vip_hylss{
@@ -215,7 +215,7 @@
 		font-size: 16px;
 		font-weight: bold;
 		margin-top: 0.2rem;
-		color: #c132cc;
+		color: #f03851;
 	}
 	.vip_hyjg span{
 		font-size: 12px;
@@ -233,13 +233,13 @@
 	}
 	.vio_rwktlb .active{
 
-		background: #c132cc;
+		background: #f03851;
 	}
 	.vio_rwktlb .active p{
 		color: #fff;
 	}
 	.active .vip_hylss{
-		background: #c132cc;
+		background: #f03851;
 
 	}
 
@@ -253,7 +253,7 @@
 	.vip_lijisj{
 		width: 84%;
 		height: 2.5rem;
-		background: #c132cc;
+		background: #f03851;
 		margin: 0.5rem 8%;
 		border-radius: 0.5rem;
 		color: #fff;

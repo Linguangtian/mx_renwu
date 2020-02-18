@@ -48,7 +48,7 @@
         <div class="login-inp" style="background: #f4f4f4;border: none;">
         	<label style="color: #999;">验证码</label>
         	<input type="text" name="code" id="code" placeholder="请输入手机验证码" style="color: #999;">
-            <input type="button" id="getcode" value="发送验证码" style="background:#b02fd3; color:#FFF; border-radius:5px; height:30px; line-height:30px;" />
+            <input type="button" id="getcode" value="发送验证码" style="background:#f03851; color:#FFF; border-radius:5px; height:30px; line-height:30px;" />
         </div>
           
         
@@ -73,9 +73,9 @@
         	<input type="text" name="invite_code" id="invite_code" value="<?php echo ($invite_code); ?>" placeholder="没有可不填" style="color: #999;">
         </div>
         
-        <p style="margin-top: -5px;margin-bottom: 10px;width: 80%;margin-left: 10%;font-size: 10px;color: #b02fd3;">*密码需右英文与字母组成，最少6位</p>
+        <p style="margin-top: -5px;margin-bottom: 10px;width: 80%;margin-left: 10%;font-size: 10px;color: #f03851;">*密码需右英文与字母组成，最少6位</p>
         
-        <div class="login-inp" style="border: none;background: #b02fd3;">
+        <div class="login-inp" style="border: none;background: #f03851;">
         	<button type="submit" class="submit">立即注册</button>
         </div>
         
@@ -83,7 +83,7 @@
     </div>
    
    <a href="<?php echo U('login');?>">
-        	<p style="width: 150px;height: 60px;line-height: 60px;margin: 20px auto 0; color: #b02fd3; "> <span style="width: 20px;height: 20px;border: 1px #b02fd3 solid;display: inline-block;margin: 20px 6px 20px 40px;text-align: center;float: left;line-height: 20px;border-radius: 20px;text-align: center;color: #b02fd3">→</span> 去登陆</p>
+        	<p style="width: 150px;height: 60px;line-height: 60px;margin: 20px auto 0; color: #f03851; "> <span style="width: 20px;height: 20px;border: 1px #f03851 solid;display: inline-block;margin: 20px 6px 20px 40px;text-align: center;float: left;line-height: 20px;border-radius: 20px;text-align: center;color: #f03851">→</span> 去登陆</p>
         </a>
    
 </div>

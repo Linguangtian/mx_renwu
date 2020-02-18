@@ -14,7 +14,7 @@
 		color: #ffffff;
 	}
 	.renwu_act .al{
-		background: #b02fd3;
+		background: #f86442;
 	}
 	.renwu_act .a2{
 		background: red;
@@ -66,10 +66,10 @@
             <button type="button" class="bala-btna" disabled>{$status_text}</button>
         </if>
         <if condition="$btn_status eq 1">
-            <button type="button" class="bala-btn get_task" style="background: #b02fd3;border: none;float: left;">{$status_text}</button>
+            <button type="button" class="bala-btn get_task" style="background: #f03851;border: none;float: left;">{$status_text}</button>
         </if>
         <if condition="$btn_status eq 2">
-            <a href="{:U('submission_task_do',array('id'=>$task_apply['id']))}" class="bala-btn" style="background: #b02fd3;border: none;float: left;">{$status_text}</a>
+            <a href="{:U('submission_task_do',array('id'=>$task_apply['id']))}" class="bala-btn" style="background: #f03851;border: none;float: left;">{$status_text}</a>
         </if>
     </div>
 

@@ -24,7 +24,7 @@ a{
 .mt80,.mt{margin-top: 46px;}
 /* 头部部分 */
 header.top_header{
-    background-color: #704eea;
+    background-color: #f03851;
     color: #fff;
     overflow: hidden;
     position: fixed;
@@ -202,7 +202,7 @@ footer{
     background-size: 100% 100%;
 }
 .footer li.active a{
-    color: #704eea;
+    color: #f03851;
 }
 
 .footer li p{
@@ -425,7 +425,7 @@ footer{
 	line-height: 40px;
 	font-size: 16px;
 	font-weight: bold;
-	color: #704eea;
+	color: #f03851;
 	
 }
 .task_gg p span{
@@ -446,7 +446,7 @@ footer{
 	line-height: 40px;
 	font-size: 16px;
 	font-weight: bold;
-	color: #704eea;
+	color: #f03851;
 }
 .task_news_nr{
 	width: 100%;
@@ -929,7 +929,7 @@ footer{
 }
 .index_tag span{
 	display: inline-block;
-	background: #b02fd3;
+	background: #f03851;
 	height: 1.2rem;
 	line-height: 1.2rem;
 	padding: 0 0.5rem;
@@ -970,7 +970,7 @@ footer{
 	height: 1.6rem;
 	margin-top: 1.7rem;
 	width: 20%;
-	background: #b02fd3;
+	background: #f03851;
 	text-align: center;
 	line-height: 1.6rem;
 	font-size: 16px;
@@ -983,11 +983,11 @@ footer{
 	margin-left: 4%;
 	margin-top: 0.8rem;
 	font-size: 14px;
-	border-bottom: 2px #b02fd3 solid;
+	border-bottom: 2px #f03851 solid;
 	padding-bottom: 0.5rem;
 }
 .show_rwlq span{
-	color: #704eea;
+	color: #f03851;
 }
 .show_lqjl{
 	width: 92%;
@@ -1000,7 +1000,7 @@ footer{
 	text-align: center;
 	line-height: 2.5rem;
 	color: #fff;
-	background: #b02fd3;
+	background: #f03851;
 	
 }
 .show_rwxq{
@@ -1025,10 +1025,10 @@ footer{
 	position: fixed;
 	bottom: 2rem;
 	border-radius: 5rem;
-	background: #b02fd3;
+	background: #f03851;
 }
 .bala-btna{
-	background: #b02fd3;
+	background: #f03851;
 	width: 100%;
 	height: 3rem;
 	line-height: 3rem;
@@ -1163,7 +1163,7 @@ footer{
 	color: #ccc;
 }
 .index_body{
-	background: url(../images/index_bg.png)no-repeat;
+	background: url(../images/index_bg.png?v=101)no-repeat;
 	background-size: 100% ;
 }
 .index_bt{
@@ -1181,7 +1181,7 @@ footer{
 .index_ye{
 	width: 92%;
 	height: 11rem;
-	background: url(../images/index_ye.png)no-repeat #fdfbfb;
+	background: url(../images/index_ye.png?b=101)no-repeat #fdfbfb;
 	background-size: 100%;
 	margin-left: 4%;
 	margin-top: 0.5rem;
@@ -1212,7 +1212,7 @@ footer{
 	color: #f09423;
 }
 .index_tssy{
-	background: #b02fd3;
+	background: #f03851;
 	margin-left: 7%;
 	width: 32%;
 	height: 2rem;
@@ -1269,7 +1269,7 @@ footer{
 .index_cwhy{
 	width: 100%;
 	height: 4rem;
-	background: url(../images/index_xrfl.png)no-repeat;
+	background: url(../images/index_xrfl.png?v=101)no-repeat;
 	background-size: 100%;
 	float: left;
 	margin-top: 1rem;
@@ -1360,7 +1360,7 @@ footer{
 .index_rw_lqqq{
 	width: 21%;
 	height: 2rem;
-	background: #b02fd3;
+	background: #f03851;
 	display: inline-block;
 	border-radius: 2rem;
 	margin: 1.5rem auto;
@@ -1416,7 +1416,7 @@ footer{
 .task_index_topa{
 	width: 100%;
 	height: 12.5rem;
-	background: #c132cc;
+	background: #f03851;
 	float: left;
 	position: relative;
 }
@@ -1485,7 +1485,7 @@ footer{
 	width: 2rem;
 	height: 2rem;
 	line-height: 2rem;
-	background: #c132cc;
+	background: #f03851;
 	display: inline-block;
 	border-radius: 0.5rem;
 	margin-top: 1.5rem;
@@ -1505,7 +1505,7 @@ footer{
 .task_index_rwflll a{
 	width: 49%;
 	height: 5rem;
-	background: #c132cc;
+	background: #f03851;
 	display: inline-block;
 	text-align: center;
 	line-height: 5rem;
@@ -1641,7 +1641,7 @@ footer{
 	padding: 0 1rem;
 	box-sizing: border-box;
 	font-size: 12px;
-	color: #c132cc;
+	color: #f03851;
 }
 .page_index_tznr{
 	padding: 0.5rem 1rem;
@@ -1658,12 +1658,12 @@ footer{
 	line-height: 2.5rem;
 	position: absolute;
 	bottom: 0;
-	color: #c132cc;
+	color: #f03851;
 }
 .me_index_top{
 	width: 92%;
 	height: 7.5rem;
-	background: #c132cc;
+	background: #f03851;
 	border-radius: 0.5rem;
 	margin-top: 1rem;
 	margin-left: 4%;	
@@ -1735,7 +1735,7 @@ footer{
 	/*background: red;*/
 	font-size: 14px;
 	text-align: center;
-	color: #c132cc;
+	color: #f03851;
 }
 .me_index_dhnav{
 	width: 92%;

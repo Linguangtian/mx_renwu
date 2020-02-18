@@ -49,9 +49,16 @@
 				<tr>
 					<th>等级名称</th>
                     <th>升级金额</th>
+                    <th>享有几代推荐人</th>
                     <th>一推荐人返佣</th>
                     <th>二推荐人返佣</th>
                     <th>三推荐人返佣</th>
+
+                    <th>几代任务分成</th>
+                    <th>一代任务返佣</th>
+                    <th>二代任务返佣</th>
+                    <th>三代任务返佣</th>
+
                     <th>权限描述</th>
                     <th>每日限制任务数</th>
                     <th>操作</th>
@@ -59,9 +66,18 @@
 				<?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
 						<td><?php echo ($vo["name"]); ?></td>
                         <td><?php echo ($vo["price"]); ?></td>
-                        <td><?php echo ($vo["rebate_price_1"]); ?></td>
-                        <td><?php echo ($vo["rebate_price_2"]); ?></td>
-                        <td><?php echo ($vo["rebate_price_3"]); ?></td>
+                        <td><?php echo ($vo["tuijian_dai"]); ?></td>
+                        <td><?php echo ($vo["tuijian_pac1"]); ?>%</td>
+                        <td><?php echo ($vo["tuijian_pac2"]); ?>%</td>
+                        <td><?php echo ($vo["tuijian_pac3"]); ?>%</td>
+
+                        <td><?php echo ($vo["renwu_dai"]); ?></td>
+                        <td><?php echo ($vo["renwu_pac1"]); ?>%</td>
+                        <td><?php echo ($vo["renwu_pac2"]); ?>%</td>
+                        <td><?php echo ($vo["renwu_pac3"]); ?>%</td>
+
+
+
                         <td><?php echo ($vo["remark"]); ?></td><td><?php echo ($vo["day_limit_task_num"]); ?></td>
 						<td><a class="btn btn-default btn-xs" href="javascript:;" data-id="<?php echo ($vo["id"]); ?>" data-name="<?php echo ($vo["name"]); ?>" data-price="<?php echo ($vo["price"]); ?>" data-rebate_price_1="<?php echo ($vo["rebate_price_1"]); ?>" 
                                data-rebate_price_2="<?php echo ($vo["rebate_price_2"]); ?>" data-rebate_price_3="<?php echo ($vo["rebate_price_3"]); ?>"  day_limit_task_num="<?php echo ($vo["day_limit_task_num"]); ?>" data-remark="<?php echo ($vo["remark"]); ?>" 
@@ -98,38 +114,78 @@
                                 <input class="form-control" type="text" name="price">
                             </td>
                         </tr>
+
+
+                        <tr>
+                            <th>享有代推荐人佣金【不大于3】：</th>
+                            <td>
+                                <input class="form-control" type="text" name="tuijian_dai">代
+                            </td>
+                        </tr>
                         <tr>
                             <th>一级推荐人返佣：</th>
                             <td>
-                                <input class="form-control" type="text" name="rebate_price_1">
+                                <input class="form-control" type="text" name="tuijian_pac1">%
                             </td>
                         </tr>
                         <tr>
                             <th>二级推荐人返佣：</th>
                             <td>
-                                <input class="form-control" type="text" name="rebate_price_2">
+                                <input class="form-control" type="text" name="tuijian_pac2">%
                             </td>
                         </tr>
                         <tr>
                             <th>三级推荐人返佣：</th>
                             <td>
-                                <input class="form-control" type="text" name="rebate_price_3">
+                                <input class="form-control" type="text" name="tuijian_pac3">%
                             </td>
                         </tr>
-                      <tr>
-                            <th>权限描述：</th>
-                            <td>
-                                <input class="form-control" type="text" name="remark">
-                            </td>
-                        </tr>
-                      
+
                         <tr>
                             <th>每日限制任务数：</th>
                             <td>
                                 <input class="form-control" type="text" name="day_limit_task_num">
                             </td>
                         </tr>
-                      
+
+
+                        <div style="height: 2px; width:100%; border-bottom: 1px solid red"></div>
+                        <tr >
+                            <th>享有任务分成代【不大于3】：</th>
+                            <td>
+                                <input class="form-control" type="text" name="renwu_dai">代
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>一代任务分成：</th>
+                            <td>
+                                <input class="form-control" type="text" name="renwu_pac1">%
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>二代任务分成：</th>
+                            <td>
+                                <input class="form-control" type="text" name="renwu_pac2">%
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>三代任务分成：</th>
+                            <td>
+                                <input class="form-control" type="text" name="renwu_pac3">%
+                            </td>
+                        </tr>
+
+
+
+
+
+                        <tr>
+                            <th>权限描述：</th>
+                            <td>
+                                <input class="form-control" type="text" name="remark">
+                            </td>
+                        </tr>
+
                         <tr>
                             <th></th>
                             <td>
@@ -172,22 +228,30 @@
 								<input class="form-control" type="text" name="price">
 							</td>
 						</tr>
+
+
+                        <tr>
+                            <th>享有代推荐人佣金【不大于3】：</th>
+                            <td>
+                                <input class="form-control" type="text" name="tuijian_dai">代
+                            </td>
+                        </tr>
                         <tr>
                             <th>一级推荐人返佣：</th>
                             <td>
-                                <input class="form-control" type="text" name="rebate_price_1">
+                                <input class="form-control" type="text" name="tuijian_pac1">%
                             </td>
                         </tr>
                         <tr>
                             <th>二级推荐人返佣：</th>
                             <td>
-                                <input class="form-control" type="text" name="rebate_price_2">
+                                <input class="form-control" type="text" name="tuijian_pac2">%
                             </td>
                         </tr>
                         <tr>
                             <th>三级推荐人返佣：</th>
                             <td>
-                                <input class="form-control" type="text" name="rebate_price_3">
+                                <input class="form-control" type="text" name="tuijian_pac3">%
                             </td>
                         </tr>
                       
@@ -197,6 +261,36 @@
                                 <input class="form-control" type="text" name="day_limit_task_num">
                             </td>
                         </tr>
+
+
+                        <div style="height: 2px; width:100%; border-bottom: 1px solid red"></div>
+                        <tr >
+                            <th>享有任务分成代【不大于3】：</th>
+                            <td>
+                                <input class="form-control" type="text" name="renwu_dai">代
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>一代任务分成：</th>
+                            <td>
+                                <input class="form-control" type="text" name="renwu_pac1">%
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>二代任务分成：</th>
+                            <td>
+                                <input class="form-control" type="text" name="renwu_pac2">%
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>三代任务分成：</th>
+                            <td>
+                                <input class="form-control" type="text" name="renwu_pac3">%
+                            </td>
+                        </tr>
+
+
+
                       
                       
                         <tr>

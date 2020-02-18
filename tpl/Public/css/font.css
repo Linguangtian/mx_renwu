@@ -865,10 +865,10 @@ img{
     color: #666;
 }
 .team_tab .current{
-    border-bottom: 2px #704eea solid;
+    border-bottom: 2px #f03851 solid;
 }
 .team_tab .current a{
-    color: #704eea;
+    color: #f03851;
 }
 .team_tab a label{
     background: #1cb500;
@@ -2050,7 +2050,7 @@ footer .info a{
 .form_box h2{
     font-size: 28px;
     color: #ffffff;
-    background: #e21330;
+    background: #f03851;
     line-height: 60px;
     padding-left: 30px;
 }
@@ -2067,13 +2067,13 @@ footer .info a{
     background: url("../images/eye.png") bottom no-repeat;
 }
 .checkID{
-    background: #e21330;
+    background: #f03851;
     line-height: 46px;
     color: #ffffff;
     text-align: center;
     border-radius: 6px;
     border: 0;
-    border-bottom: 2px #e21330 solid;
+    border-bottom: 2px #f03851 solid;
     padding: 0 12px;
 }
 .checkID.is_ok{
@@ -2091,7 +2091,7 @@ footer .info a{
     color: #ffffff;
     width: 100%;
     border-radius: 10px;
-    background: #e21330;
+    background: #f03851;
     height: 77px;
     line-height: 77px;
     font-size: 28px;

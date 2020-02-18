@@ -40,7 +40,7 @@
 		.me_wd_yue p{
 			width: 50%;
 			height: 5rem;
-			color: #c132cc;
+			color: #f03851;
 			text-align: center;
 			font-size: 20px;
 			font-weight: bold;
@@ -88,7 +88,7 @@
 	
 	<div class="me_wd_yue">
 		 <p> <?php echo ($data["price"]); ?></p>
-		 <p style="font-size: 16px;color: #c132cc;"><a href="<?php echo U('Member/tixian');?>" style="color: #c132cc;;">立即提现</a></p>
+		 <p style="font-size: 16px;color: #f03851;"><a href="<?php echo U('Member/tixian');?>" style="color: #f03851;;">立即提现</a></p>
 	</div>
 	
 	
@@ -231,7 +231,7 @@
      		<a href="<?php echo U('Member/index');?>">
      			<li>
      				<img src="/tpl/Public/images/user_b.png" />
-     				<p style="color: #c132cc;font-size: 12px;">我的</p>
+     				<p style="color: #f03851;font-size: 12px;">我的</p>
      			</li>
      		</a>
      
