@@ -217,7 +217,7 @@
      
      		<a href="<?php echo U('Member/vip');?>">
      			<li class="task_shop">
-     				<img class="foot_shop" src="/tpl/Public/images/shop_a.png" />
+     				<img class="foot_shop" src="/tpl/Public/images/shop_a.png?v=1" />
      			</li>
      		</a>
      
@@ -230,7 +230,7 @@
      
      		<a href="<?php echo U('Member/index');?>">
      			<li>
-     				<img src="/tpl/Public/images/user_b.png" />
+     				<img src="/tpl/Public/images/user_b.png?v=1" />
      				<p style="color: #f03851;font-size: 12px;">我的</p>
      			</li>
      		</a>

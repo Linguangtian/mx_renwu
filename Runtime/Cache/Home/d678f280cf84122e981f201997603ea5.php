@@ -141,8 +141,8 @@
 	<ul>
 		<a href="<?php echo U('Index/index');?>">
 		<li>
-			<img src="/tpl/Public/images/home_b.png"/>
-			<p style="color: #228aff;font-size: 12px;">首页</p>
+			<img src="/tpl/Public/images/home_b.png?v=1"/>
+			<p style="color: #e21330;font-size: 12px;">首页</p>
 		</li>
 		</a>
 		
@@ -155,7 +155,7 @@
 		
 		<a href="<?php echo U('Member/vip');?>">
 		<li class="task_shop">
-			<img class="foot_shop" src="/tpl/Public/images/shop_a.png"/>
+			<img class="foot_shop" src="/tpl/Public/images/shop_a.png?v=1"/>
 		</li>
 		</a>
 		

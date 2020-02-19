@@ -3,6 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="e8a88056-89a6-4b6c-9744-c2341dd9429a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/90e9989fece0abf8e8d57268013e85b8.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/90e9989fece0abf8e8d57268013e85b8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/91b4b7844274a66824e80eafa632752d.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/91b4b7844274a66824e80eafa632752d.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/a6f636cfc0f7c82e3fb26f46daa44147.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/a6f636cfc0f7c82e3fb26f46daa44147.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/c0c6aa0a8e954c0fb13dd480d1e85b64.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/c0c6aa0a8e954c0fb13dd480d1e85b64.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/d678f280cf84122e981f201997603ea5.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/d678f280cf84122e981f201997603ea5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/e107d12f6ddceb2e0954336d7f01d9f0.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/e107d12f6ddceb2e0954336d7f01d9f0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/eb09af648ae70cefecf69f1209de3d98.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/eb09af648ae70cefecf69f1209de3d98.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/f2830fee7ecd2fd2e82c8f058deda587.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/f2830fee7ecd2fd2e82c8f058deda587.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Index/00index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Index/00index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Index/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Index/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Member/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Member/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Member/vip.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Member/vip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Member/vip23.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Member/vip23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Public/xindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Public/xindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/lists_lb.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/lists_lb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/lists_sub.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/lists_sub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/yongjin.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/yongjin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Public/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/css/font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Public/css/share.css" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/css/share.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,56 +35,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/Admin/Level/index.html">
+      <file leaf-file-name="share.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/Public/css/share.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="131" column="39" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="254">
+              <caret line="1158" column="18" lean-forward="true" selection-start-line="1158" selection-start-column="18" selection-end-line="1158" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PayModel.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Common/Model/PayModel.class.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tpl/Home/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="124" column="83" selection-start-line="124" selection-start-column="83" selection-end-line="124" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TaskController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1900">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="2003" selection-start-line="2003" selection-end-line="2003" />
-              <folding>
-                <element signature="n#style#0;n#pre#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
-                <element signature="e#22#28#1" expanded="true" />
-                <element signature="e#70#76#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskApplyController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TaskApplyController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="291" column="46" selection-start-line="291" selection-start-column="46" selection-end-line="291" selection-end-column="46" />
+            <state relative-caret-position="139">
+              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -71,14 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>renwu_act</find>
-      <find>朋友圈名称</find>
-      <find>Tolink</find>
-      <find>copy2</find>
-      <find>.htaccess</find>
-      <find>index_tssy</find>
-      <find>index_bg</find>
-      <find>index_xrfl</find>
       <find>#b02fd3</find>
       <find>share.css</find>
       <find>c132cc</find>
@@ -101,13 +79,26 @@
       <find>recharge</find>
       <find>exit;</find>
       <find>每日限制任务数：</find>
+      <find>index_bg</find>
+      <find>home_b.png</find>
+      <find>#228aff</find>
+      <find>task_b.png</find>
+      <find>shop_a.png</find>
+      <find>page_b.png</find>
+      <find>user_b.png</find>
+      <find>body-bj.jpg</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>超热点</replace>
       <replace>抖音任务</replace>
-      <replace>#e21330</replace>
       <replace>#f03851</replace>
+      <replace>#e21330</replace>
+      <replace>task_b.png?v=1</replace>
+      <replace>shop_a.png?v=1</replace>
+      <replace>page_b.png?v=1</replace>
+      <replace>user_b.png?v=1</replace>
+      <replace>body-bj.jpg?v=1</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\github\mx_renwu\ThinkPHP</dir>
@@ -129,14 +120,14 @@
         <option value="$PROJECT_DIR$/tpl/Home/Task/lists_lb.html" />
         <option value="$PROJECT_DIR$/tpl/Home/Member/vip.html" />
         <option value="$PROJECT_DIR$/tpl/Admin/Task/handle.html" />
-        <option value="$PROJECT_DIR$/tpl/Public/css/share.css" />
-        <option value="$PROJECT_DIR$/tpl/Home/Index/index.html" />
         <option value="$PROJECT_DIR$/tpl/Home/Task/show.html" />
         <option value="$PROJECT_DIR$/tpl/Admin/Level/index.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/TaskController.class.php" />
         <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/TaskApplyController.class.php" />
         <option value="$PROJECT_DIR$/Application/Common/Model/PayModel.class.php" />
+        <option value="$PROJECT_DIR$/tpl/Public/css/share.css" />
+        <option value="$PROJECT_DIR$/tpl/Home/Index/index.html" />
       </list>
     </option>
   </component>
@@ -162,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,12 +220,20 @@
               <item name="mx_renwu" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mx_renwu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mx_renwu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Home" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Task" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,14 +267,16 @@
       <workItem from="1581916134007" duration="13565000" />
       <workItem from="1581998089041" duration="1989000" />
       <workItem from="1582041429925" duration="9043000" />
+      <workItem from="1582112444936" duration="281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24597000" />
+    <option name="totallyTimeSpent" value="24878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -306,6 +306,41 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tpl/Admin/Level/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3275">
+          <caret line="131" column="39" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TaskController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50075">
+          <caret line="2003" selection-start-line="2003" selection-end-line="2003" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TaskApplyController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7225">
+          <caret line="291" column="46" selection-start-line="291" selection-start-column="46" selection-end-line="291" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Model/PayModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3100">
+          <caret line="124" column="83" selection-start-line="124" selection-start-column="83" selection-end-line="124" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/MemberController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7750">
@@ -327,10 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -407,10 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,10 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1840">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/Public/css/share.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="1190" column="1" selection-start-line="1190" selection-start-column="1" selection-end-line="1190" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tpl/Home/Task/lists_lb.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
@@ -558,20 +574,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/Home/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tpl/Admin/Level/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="3275">
           <caret line="131" column="39" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#table#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,35 +604,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TaskController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1900">
+        <state relative-caret-position="575">
           <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="50075">
           <caret line="2003" selection-start-line="2003" selection-end-line="2003" />
-          <folding>
-            <element signature="n#style#0;n#pre#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
-            <element signature="e#22#28#1" expanded="true" />
-            <element signature="e#70#76#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TaskApplyController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="7225">
           <caret line="291" column="46" selection-start-line="291" selection-start-column="46" selection-end-line="291" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Common/Model/PayModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="124" column="83" selection-start-line="124" selection-start-column="83" selection-end-line="124" selection-end-column="83" />
+        <state relative-caret-position="525">
+          <caret line="144" column="33" lean-forward="true" selection-start-line="144" selection-start-column="33" selection-end-line="144" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/Public/css/share.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="1158" column="18" lean-forward="true" selection-start-line="1158" selection-start-column="18" selection-end-line="1158" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/Home/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
         </state>
       </provider>
     </entry>
