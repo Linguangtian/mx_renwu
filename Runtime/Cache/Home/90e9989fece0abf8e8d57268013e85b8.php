@@ -40,7 +40,7 @@
 	.vip_car_xx{
 		width: 100%;
 		height: 7rem;
-		background: url(/tpl/Public/images/vip_bg.png) no-repeat;
+		background: url(/tpl/Public/images/vip_bg.png?v=1) no-repeat;
 		background-size: 100% 100%;
 		margin-left: 0;
 		margin-top: 0;
@@ -187,6 +187,7 @@
 		border-right: 1px solid #d81e06;
 		border-left: 1px solid #d81e06;
 		height: 8rem;
+		margin-bottom: 2rem;
 		box-sizing: border-box;
 		border-radius: 1rem;
 		margin-left: 2.5%;
@@ -229,7 +230,7 @@
 		text-align: center;
 		/*text-decoration:line-through;*/
 		font-size: 12px;
-		color:#a6a6a6;
+		color:#383636;
 	}
 	.vio_rwktlb .active{
 
@@ -330,9 +331,9 @@
         			<p class="vip_hyjg"><?php echo ($vo["price"]); ?><span>元</span></p>
         			<p class="vip_yuanjia">每日限制任务数<?php echo ($vo["day_limit_task_num"]); ?>
 					<br/>
-						一级推荐人返佣：<?php echo ($vo["rebate_price_1"]); ?>
-						二级推荐人返佣：<?php echo ($vo["rebate_price_2"]); ?>
-						三级推荐人返佣：<?php echo ($vo["rebate_price_3"]); ?>
+						一级任务返佣：<?php echo ($vo["renwu_pac1"]); ?>%
+						二级任务返佣：<?php echo ($vo["renwu_pac2"]); ?>%
+						三级任务返佣：<?php echo ($vo["renwu_pac3"]); ?>%
 					</p>
         		</li><?php endforeach; endif; else: echo "" ;endif; ?>
         		

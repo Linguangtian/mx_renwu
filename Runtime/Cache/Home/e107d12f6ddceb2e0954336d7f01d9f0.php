@@ -53,7 +53,7 @@
 	
 	<div class="me_index_top">
 		<div class="me_index_tlo">
-			<img src="/tpl/Public/images/lo.jpg"/>
+			<img src="/tpl/Public/images/lo.jpg?v=101"/>
 			<p class="me_index_t_bt"><?php echo ($data["username"]); ?></p>
 			<p class="me_index_t_idhhy">ID:<?php echo ($member["id"]); ?> <span style="width: 8em;display: inline-block;height: 2rem;float: right;margin-left: 1rem;overflow: hidden;">等级：<?php echo ($level_name); ?></span></p>
 			<a class="me_index_t_szz" href="<?php echo U('password');?>">

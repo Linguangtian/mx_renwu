@@ -516,7 +516,7 @@ img{
 
 /*个人中心页面 开始*/
 .member_header{
-    background:#4287ff url('../images/body-bj.jpg?v=1') top left no-repeat;
+    background:#4287ff url('../images/body-bj.jpg?v=2') top left no-repeat;
     background-size: 100% auto;
 }
 .mine_head{
@@ -1711,7 +1711,7 @@ footer .info a{
 
 .profit-head{
     height:160px;
-    background: #4287ff url(../images/body-bj.jpg?v=1) top left no-repeat;
+    background: #4287ff url(../images/body-bj.jpg?v=2) top left no-repeat;
     background-size: 100% auto;
 }
 .profit-head .top{
