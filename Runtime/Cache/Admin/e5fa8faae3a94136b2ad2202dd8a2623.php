@@ -84,12 +84,17 @@
         </tr>
 -->
         <tr>
-            <th>连接地址</th>
+            <th>跳转链接地址</th>
             <td>
                 <input class="col-xs-12 col-sm-5" type="text" name="tolink" value="<?php echo ($info["tolink"]); ?>">
             </td>
         </tr>
-
+        <tr>
+            <th>复制口令信息</th>
+            <td>
+                <input class="col-xs-12 col-sm-5" type="text" name="copy_link" value="<?php echo ($info["copy_link"]); ?>">
+            </td>
+        </tr>
 
         <tr>
             <th>任务级别</th>

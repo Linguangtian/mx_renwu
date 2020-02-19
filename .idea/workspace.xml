@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a88056-89a6-4b6c-9744-c2341dd9429a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/90e9989fece0abf8e8d57268013e85b8.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/90e9989fece0abf8e8d57268013e85b8.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/e107d12f6ddceb2e0954336d7f01d9f0.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/e107d12f6ddceb2e0954336d7f01d9f0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/f2830fee7ecd2fd2e82c8f058deda587.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/f2830fee7ecd2fd2e82c8f058deda587.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Member/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Member/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Member/vip.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Member/vip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/css/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/images/eee.png" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/images/eee.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/images/lo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/images/lo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/images/zan.png" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/images/zan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/dcf868a33d599a00a8c4c4676854e874.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/dcf868a33d599a00a8c4c4676854e874.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/357530a319b9dc2d024a6786a39122a3.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/357530a319b9dc2d024a6786a39122a3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/c0c6aa0a8e954c0fb13dd480d1e85b64.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/c0c6aa0a8e954c0fb13dd480d1e85b64.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/d678f280cf84122e981f201997603ea5.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/d678f280cf84122e981f201997603ea5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Admin/SystemConfig/set.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Admin/SystemConfig/set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Admin/Task/handle.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Admin/Task/handle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/yongjin.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/yongjin.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="share.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpl/Public/css/share.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="1158" column="18" lean-forward="true" selection-start-line="1158" selection-start-column="18" selection-end-line="1158" selection-end-column="18" />
+            <state relative-caret-position="28950">
+              <caret line="1158" column="18" selection-start-line="1158" selection-start-column="18" selection-end-line="1158" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -34,8 +35,49 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpl/Home/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+            <state relative-caret-position="-350">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="set.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/Admin/SystemConfig/set.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/Admin/Task/handle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1300">
+              <caret line="81" column="102" selection-start-line="81" selection-start-column="93" selection-end-line="81" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tpl/Home/Task/show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="357530a319b9dc2d024a6786a39122a3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Runtime/Cache/Home/357530a319b9dc2d024a6786a39122a3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -43,20 +85,29 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpl/Home/Page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="25">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vip.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vip.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpl/Home/Member/vip.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="247" column="78" selection-start-line="247" selection-start-column="78" selection-end-line="247" selection-end-column="78" />
+            <state relative-caret-position="329">
+              <caret line="251" column="22" selection-start-line="251" selection-start-column="22" selection-end-line="251" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yongjin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/Home/Task/yongjin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -65,14 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>每日限制任务数</find>
-      <find>修改等级</find>
-      <find>一推荐人返佣</find>
-      <find>4</find>
-      <find>-&gt;join</find>
-      <find>handle</find>
-      <find>add_task_price</find>
-      <find>cacu_pac</find>
       <find>添加等级</find>
       <find>任务级别</find>
       <find>累计奖励</find>
@@ -95,6 +138,14 @@
       <find>jinzhi</find>
       <find>1.3</find>
       <find>lo.jpg</find>
+      <find>会员价格26元。</find>
+      <find>开启后VIP等级低的会员拿不到等级比他高的会员任务返佣，同级可拿。</find>
+      <find>连接地址</find>
+      <find>会员价格26元</find>
+      <find>copy_link</find>
+      <find>tolink</find>
+      <find>copy3</find>
+      <find>lianjie</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -126,17 +177,20 @@
         <option value="$PROJECT_DIR$/Application/Api/Controller/IweipayController.class.php" />
         <option value="$PROJECT_DIR$/tpl/Home/Task/index.html" />
         <option value="$PROJECT_DIR$/tpl/Home/Task/lists_lb.html" />
-        <option value="$PROJECT_DIR$/tpl/Admin/Task/handle.html" />
-        <option value="$PROJECT_DIR$/tpl/Home/Task/show.html" />
         <option value="$PROJECT_DIR$/tpl/Admin/Level/index.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/TaskController.class.php" />
         <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/TaskApplyController.class.php" />
         <option value="$PROJECT_DIR$/Application/Common/Model/PayModel.class.php" />
         <option value="$PROJECT_DIR$/tpl/Public/css/share.css" />
-        <option value="$PROJECT_DIR$/tpl/Home/Index/index.html" />
         <option value="$PROJECT_DIR$/tpl/Home/Page/index.html" />
         <option value="$PROJECT_DIR$/tpl/Home/Member/vip.html" />
+        <option value="$PROJECT_DIR$/tpl/Home/Index/index.html" />
+        <option value="$PROJECT_DIR$/tpl/Admin/SystemConfig/set.html" />
+        <option value="$PROJECT_DIR$/tpl/Admin/Task/handle.html" />
+        <option value="$PROJECT_DIR$/Runtime/Cache/Home/357530a319b9dc2d024a6786a39122a3.php" />
+        <option value="$PROJECT_DIR$/tpl/Home/Task/yongjin.html" />
+        <option value="$PROJECT_DIR$/tpl/Home/Task/show.html" />
       </list>
     </option>
   </component>
@@ -151,9 +205,9 @@
       <path value="$PROJECT_DIR$/Public/statics/mCustomScrollbar/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="173" />
-    <option name="y" value="108" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-6" />
+    <option name="y" value="42" />
     <option name="width" value="1338" />
     <option name="height" value="920" />
   </component>
@@ -277,14 +331,15 @@
       <workItem from="1581998089041" duration="1989000" />
       <workItem from="1582041429925" duration="9043000" />
       <workItem from="1582112444936" duration="1552000" />
+      <workItem from="1582115625816" duration="5639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26149000" />
+    <option name="totallyTimeSpent" value="31788000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="108" width="1338" height="920" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -293,7 +348,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08263889" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -315,6 +370,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tpl/Home/Member/vip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6175">
+          <caret line="247" column="78" selection-start-line="247" selection-start-column="78" selection-end-line="247" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tpl/Admin/Level/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3275">
@@ -406,9 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -475,9 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,16 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#2;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/Home/Task/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1840">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -556,13 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
           <caret line="318" column="36" selection-start-line="318" selection-start-column="36" selection-end-line="318" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/Admin/Task/handle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -631,31 +673,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/Public/css/share.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="1158" column="18" lean-forward="true" selection-start-line="1158" selection-start-column="18" selection-end-line="1158" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/Home/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/Home/Page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="28950">
+          <caret line="1158" column="18" selection-start-line="1158" selection-start-column="18" selection-end-line="1158" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/Home/Member/vip.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="247" column="78" selection-start-line="247" selection-start-column="78" selection-end-line="247" selection-end-column="78" />
+        <state relative-caret-position="329">
+          <caret line="251" column="22" selection-start-line="251" selection-start-column="22" selection-end-line="251" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Cache/Home/357530a319b9dc2d024a6786a39122a3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/Home/Task/yongjin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/Admin/SystemConfig/set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/Home/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/Home/Page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/Admin/Task/handle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="81" column="102" selection-start-line="81" selection-start-column="93" selection-end-line="81" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/Home/Task/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

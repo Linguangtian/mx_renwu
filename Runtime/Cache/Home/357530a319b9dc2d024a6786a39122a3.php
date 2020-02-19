@@ -71,20 +71,24 @@
 		<div class="clear"></div>
 		<div class="renwu_act" >
 			<div class="act_li"  ><a class="al" href="<?php echo ($show["tolink"]); ?>" target="_blank" >打开视频</a></div>
-			<div   class="act_li" ><a href="javascript:void(0)"  data-clipboard-action="copy" data-clipboard-target=".lianjie" id="copy3" class="a2">复制链接</a></div>
+			<div   class="act_li" ><a href="javascript:void(0)"  data-clipboard-action="copy" data-clipboard-target=".lianjie" id="copy3" class="a2">复制口令</a></div>
 		</div>
 
 	</div>
-	<div class="lianjie" style="display: none">
-		<?php echo ($show["tolink"]); ?>
+	<div  class="show_rwxq" style="position: fixed;bottom: -100px;">
+		<div style="float: left">口令：	</div><div class="lianjie" style="float: left"><?php echo ($show["copy_link"]); ?></div>
 	</div>
+
+
 	<div class="show_rwxq">
         <?php echo ($show["content"]); ?>
 	</div>
 	<div style="clear:both;height:10px;width:100%"></div>
-<!--	<a href="javascript:void(0)" id="copy2" data-clipboard-action="copy" data-clipboard-target=".show_rwxq" style="display:block;width:130px;height:40px;border:1px solid #EEAD0E;clear:both;text-align:center;line-height:40px;border-radius:10px;color:#EEAD0E;margin:10px auto;font-size:16px; ">一键复制文案</a>
-	
-	-->
+<!--
+	<a href="javascript:void(0)" id="copy2" data-clipboard-action="copy" data-clipboard-target=".show_rwxq" style="display:block;width:130px;height:40px;border:1px solid #EEAD0E;clear:both;text-align:center;line-height:40px;border-radius:10px;color:#EEAD0E;margin:10px auto;font-size:16px; ">一键复制文案</a>
+
+-->
+
 	
 	
 	

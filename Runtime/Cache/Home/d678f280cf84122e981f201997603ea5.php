@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title><?php echo ($title); ?></title>
+    <title>超热点</title>
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <meta name="description" content=""/>
 
@@ -18,7 +18,7 @@
 
     <script type="text/javascript" src="/tpl/Public/js/func.js"></script>
 
-    <link rel="stylesheet" href="/tpl/Public/css/share.css?5"/>
+    <link rel="stylesheet" href="/tpl/Public/css/share.css?4"/>
     <link rel="stylesheet" href="/tpl/Public/css/font.css?3"/>
 </head>
 <body class="index_body">

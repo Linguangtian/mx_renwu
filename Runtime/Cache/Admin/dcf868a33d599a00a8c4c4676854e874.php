@@ -135,44 +135,44 @@
         </tr>-->
     </table>
     <table class="table table-bordered " style="max-width: 800px; margin-top: 10px;">
-        <thead>
-            <tr>
-                <th colspan="2">奖励设置</th>
-            </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td width="150">
-                开启等级高低返佣规则
-            </td>
-            <td>
-                <input type="checkbox" name="open_level_rule" value="1" <?php if($info['open_level_rule'] == 1): ?>checked<?php endif; ?> style="height: inherit;" /> 开启后VIP等级低的会员拿不到等级比他高的会员任务返佣，同级可拿。
-            </td>
-        </tr>
-        <tr>
-            <td width="150">
-                一级返利
-            </td>
-            <td>
-                <input class="form-control" style="width: 80px;" name="bfb_1" value="<?php echo ($info["bfb_1"]); ?>"> %
-            </td>
-        </tr>
-        <tr>
-            <td>
-                二级返利
-            </td>
-            <td>
-                <input class="form-control" style="width: 80px;" name="bfb_2" value="<?php echo ($info["bfb_2"]); ?>"> %
-            </td>
-        </tr>
-        <tr>
-            <td>
-                三级返利
-            </td>
-            <td>
-                <input class="form-control" style="width: 80px;" name="bfb_3" value="<?php echo ($info["bfb_3"]); ?>"> %
-            </td>
-        </tr>
+        <!--  <thead>
+          <tr>
+              <th colspan="2">奖励设置</th>
+          </tr>
+      </thead>
+      <tbody>
+  <tr>
+          <td width="150">
+              开启等级高低返佣规则
+          </td>
+          <td>
+              <input type="checkbox" name="open_level_rule" value="1" <?php if($info['open_level_rule'] == 1): ?>checked<?php endif; ?> style="height: inherit;" /> 开启后VIP等级低的会员拿不到等级比他高的会员任务返佣，同级可拿。
+          </td>
+      </tr>
+      <tr>
+          <td width="150">
+              一级返利
+          </td>
+          <td>
+              <input class="form-control" style="width: 80px;" name="bfb_1" value="<?php echo ($info["bfb_1"]); ?>"> %
+          </td>
+      </tr>
+      <tr>
+          <td>
+              二级返利
+          </td>
+          <td>
+              <input class="form-control" style="width: 80px;" name="bfb_2" value="<?php echo ($info["bfb_2"]); ?>"> %
+          </td>
+      </tr>
+      <tr>
+          <td>
+              三级返利
+          </td>
+          <td>
+              <input class="form-control" style="width: 80px;" name="bfb_3" value="<?php echo ($info["bfb_3"]); ?>"> %
+          </td>
+      </tr>-->
         </tbody>
         <thead>
         <tr>
