@@ -3,48 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8a88056-89a6-4b6c-9744-c2341dd9429a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/TaskApplyController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Controller/TaskApplyController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/TaskController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Controller/TaskController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Common/Common/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Common/Common/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Common/Model/PayModel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Common/Model/PayModel.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/c3b42d2929e032d43a128f41b7641b73.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/c3b42d2929e032d43a128f41b7641b73.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Admin/e5fa8faae3a94136b2ad2202dd8a2623.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/338b513989b39f3eba87eceba1fe4689.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/338b513989b39f3eba87eceba1fe4689.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/357530a319b9dc2d024a6786a39122a3.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/357530a319b9dc2d024a6786a39122a3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/43c0f6c06fa1a31118071cd849bb91c6.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/43c0f6c06fa1a31118071cd849bb91c6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/565027c4d5ec368a3661255e6b145f8f.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/565027c4d5ec368a3661255e6b145f8f.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/90e9989fece0abf8e8d57268013e85b8.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/90e9989fece0abf8e8d57268013e85b8.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/91b4b7844274a66824e80eafa632752d.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/91b4b7844274a66824e80eafa632752d.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/a6f636cfc0f7c82e3fb26f46daa44147.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/a6f636cfc0f7c82e3fb26f46daa44147.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/c0c6aa0a8e954c0fb13dd480d1e85b64.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/c0c6aa0a8e954c0fb13dd480d1e85b64.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/d678f280cf84122e981f201997603ea5.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/d678f280cf84122e981f201997603ea5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/e107d12f6ddceb2e0954336d7f01d9f0.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/e107d12f6ddceb2e0954336d7f01d9f0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/eb09af648ae70cefecf69f1209de3d98.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/eb09af648ae70cefecf69f1209de3d98.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Cache/Home/f2830fee7ecd2fd2e82c8f058deda587.php" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/f2830fee7ecd2fd2e82c8f058deda587.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Admin/Level/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Admin/Level/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Index/00index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Index/00index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Member/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Member/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Member/vip.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Member/vip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Member/vip23.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Member/vip23.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Public/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Public/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Public/reg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Public/xindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Public/xindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/gg.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/gg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/lists_lb.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/lists_lb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/lists_sub.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/lists_sub.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Home/Task/yongjin.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Home/Task/yongjin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/css/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/css/share.css" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/css/share.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/images/dj.png" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/images/dj.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/images/eee.png" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/images/eee.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/images/index_xrfl.png" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/images/index_xrfl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/images/index_ye.png" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/images/index_ye.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/images/ks.png" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/images/ks.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl/Public/images/zan.png" beforeDir="false" afterPath="$PROJECT_DIR$/tpl/Public/images/zan.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -193,7 +151,7 @@
       <path value="$PROJECT_DIR$/Public/statics/mCustomScrollbar/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-27" />
     <option name="y" value="8" />
     <option name="width" value="1338" />
@@ -310,16 +268,15 @@
       <updated>1581916132430</updated>
       <workItem from="1581916134007" duration="13565000" />
       <workItem from="1581998089041" duration="1989000" />
-      <workItem from="1582041429925" duration="8779000" />
+      <workItem from="1582041429925" duration="9043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24333000" />
+    <option name="totallyTimeSpent" value="24597000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
