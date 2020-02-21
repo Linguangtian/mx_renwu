@@ -272,7 +272,7 @@
         <div class="vip_car">
         	
         	<div class="vip_car_xx">
-        		<img class="vip_car_logo" src="/tpl/Public/images/lo.jpg"/>
+        		<img class="vip_car_logo" src="/tpl/Public/images/lo.jpg?v=101"/>
                 <div style="float: left">
                     <p class="vip_car_logo_name"><?php echo ($member["level_name"]); ?></p>
                     <p class="vip_car_logo_rw"></p>

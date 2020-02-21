@@ -31,7 +31,7 @@
 <div class="body_main">
     <!-- 头部部分 开始 -->
     <div class="page_index_tz" style="height: auto;padding-bottom: 20px;">
-    	<p class="page_index_xttz">系统消息：20209/2/21 12:00:00</p>
+    	<p class="page_index_xttz">系统消息：2020/02/02 12:02:02</p>
     	<p class="page_index_tznr">
            <!-- <b>会员每天可接取任务</b><br>
             观众   2个任务 1元/个<br>
